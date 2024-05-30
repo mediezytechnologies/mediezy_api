@@ -1,0 +1,2020 @@
+[2024-05-29 16:47:21] local.INFO: Token Time:   
+[2024-05-29 16:47:21] local.INFO: Token Time:   
+[2024-05-29 16:47:21] local.INFO: Token Time:   
+[2024-05-29 16:47:21] local.INFO: Token Time:   
+[2024-05-29 16:47:21] local.INFO: Token Time:   
+[2024-05-29 16:47:24] local.INFO: Validation passed  
+[2024-05-29 16:47:24] local.INFO: Checked for existing breaks {"existing_break_check":{"Illuminate\\Database\\Eloquent\\Collection":[]}} 
+[2024-05-29 16:47:24] local.INFO: Saved doctor reschedule data {"doctor_reschedule_data":{"App\\Models\\DoctorReschedule":{"doctor_id":47,"clinic_id":"31","reschedule_type":3,"reschedule_duration":10,"reschedule_start_datetime":"2024-05-29T11:50:00.000000Z","reschedule_end_datetime":"2024-05-29T12:00:00.000000Z","schedule_type":"1","schedule_id":233,"break_start_time":"17:20:00","break_end_time":"17:30:00","updated_at":"2024-05-29T11:17:24.000000Z","created_at":"2024-05-29T11:17:24.000000Z","id":1}}} 
+[2024-05-29 16:47:24] local.INFO: Sent push notification {"response":{"multicast_id":6263374924699642573,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-29 16:47:25] local.INFO: Sent push notification {"response":{"multicast_id":3669402365162791450,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-29 16:47:25] local.INFO: Sent push notification {"response":{"multicast_id":7826761632210895247,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-29 16:47:25] local.INFO: Sent push notification {"response":{"multicast_id":4870865359321661359,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-29 16:47:26] local.INFO: Sent push notification {"response":{"multicast_id":8636683731997138937,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-29 16:47:26] local.INFO: Sent push notification {"response":{"multicast_id":7459515220384440861,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-29 16:47:26] local.INFO: Sent push notification {"response":{"multicast_id":604625965237169594,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-29 16:47:26] local.INFO: Break process successful  
+[2024-05-29 16:47:39] local.INFO: getTokensCheckInCheckOut04:47:39 PM  
+[2024-05-29 16:47:39] local.INFO: getTokensCheckInCheckOut 04:47:39 PM  
+[2024-05-29 16:47:39] local.INFO: getTokensCheckInCheckOut04:47:39 PM  
+[2024-05-29 16:47:39] local.INFO: getTokensCheckInCheckOut 04:47:39 PM  
+[2024-05-29 16:47:39] local.INFO: req type  if chkin  1  
+[2024-05-29 16:47:39] local.INFO: req type  if checkout  0  
+[2024-05-29 16:47:41] local.INFO: current token number for checkin is: 1  
+[2024-05-29 16:47:41] local.INFO: permanent checkin time 2024-05-29 16:50:00  
+[2024-05-29 16:47:41] local.INFO: permanent checkin time is greater than the current checkin time   
+[2024-05-29 16:47:41] local.INFO: checkin difference is 2  
+[2024-05-29 16:47:41] local.INFO: estimated_time_of_next_patient after adding token duration: 2024-05-29 17:00:00  
+[2024-05-29 16:47:41] local.INFO: estimated_time_of_next_patient after substarcting 20 mins: 2024-05-29 16:40:00  
+[2024-05-29 16:47:41] local.INFO: estimated_time_of_next_patient after substarcting checkin difference: 2024-05-29 16:38:00  
+[2024-05-29 16:47:41] local.INFO: next token exists -> next token number is 2  
+[2024-05-29 16:47:41] local.INFO: next token exists -> next token estimate time 2024-05-29 16:38:00  
+[2024-05-29 16:47:41] local.INFO: each token duration of upcoming tokens10  
+[2024-05-29 16:47:41] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:47:41] local.INFO: upcoming token number in loop3  
+[2024-05-29 16:47:41] local.INFO: estimate time2024-05-29 16:48:00  
+[2024-05-29 16:47:41] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:47:41] local.INFO: upcoming token number in loop4  
+[2024-05-29 16:47:41] local.INFO: estimate time2024-05-29 16:58:00  
+[2024-05-29 16:47:41] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:47:41] local.INFO: upcoming token number in loop5  
+[2024-05-29 16:47:41] local.INFO: estimate time2024-05-29 17:08:00  
+[2024-05-29 16:47:41] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:47:41] local.INFO: upcoming token number in loop6  
+[2024-05-29 16:47:41] local.INFO: estimate time2024-05-29 17:18:00  
+[2024-05-29 16:47:41] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:47:41] local.INFO: upcoming token number in loop7  
+[2024-05-29 16:47:41] local.INFO: estimate time2024-05-29 17:28:00  
+[2024-05-29 16:47:41] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:47:41] local.INFO: upcoming token number in loop8  
+[2024-05-29 16:47:41] local.INFO: estimate time2024-05-29 17:38:00  
+[2024-05-29 16:47:41] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:47:41] local.INFO: upcoming token number in loop9  
+[2024-05-29 16:47:41] local.INFO: estimate time2024-05-29 17:48:00  
+[2024-05-29 16:47:41] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:47:41] local.INFO: upcoming token number in loop10  
+[2024-05-29 16:47:41] local.INFO: estimate time2024-05-29 17:58:00  
+[2024-05-29 16:47:41] local.INFO:  break exists  
+[2024-05-29 16:47:41] local.INFO: break_start_time17:20  
+[2024-05-29 16:47:41] local.INFO: token number after break is 4  
+[2024-05-29 16:47:41] local.INFO: token number after break estimate2024-05-29 17:10:00  
+[2024-05-29 16:48:02] local.INFO: ADD test details api called on 04:48:02 PM  
+[2024-05-29 16:48:04] local.INFO: getTokensCheckInCheckOut04:48:04 PM  
+[2024-05-29 16:48:04] local.INFO: getTokensCheckInCheckOut 04:48:04 PM  
+[2024-05-29 16:48:04] local.INFO: getTokensCheckInCheckOut04:48:04 PM  
+[2024-05-29 16:48:04] local.INFO: getTokensCheckInCheckOut 04:48:04 PM  
+[2024-05-29 16:48:04] local.INFO: req type  if chkin  0  
+[2024-05-29 16:48:04] local.INFO: req type  if checkout  1  
+[2024-05-29 16:48:07] local.INFO: getTokensCheckInCheckOut04:48:07 PM  
+[2024-05-29 16:48:07] local.INFO: getTokensCheckInCheckOut 04:48:07 PM  
+[2024-05-29 16:48:07] local.INFO: getTokensCheckInCheckOut04:48:07 PM  
+[2024-05-29 16:48:07] local.INFO: getTokensCheckInCheckOut 04:48:07 PM  
+[2024-05-29 16:48:07] local.INFO: req type  if chkin  1  
+[2024-05-29 16:48:07] local.INFO: req type  if checkout  0  
+[2024-05-29 16:48:09] local.INFO: current token number for checkin is: 2  
+[2024-05-29 16:48:09] local.INFO: permanent checkin time 2024-05-29 17:00:00  
+[2024-05-29 16:48:09] local.INFO: permanent checkin time is greater than the current checkin time   
+[2024-05-29 16:48:09] local.INFO: checkin difference is 11  
+[2024-05-29 16:48:09] local.INFO: estimated_time_of_next_patient after adding token duration: 2024-05-29 17:10:00  
+[2024-05-29 16:48:09] local.INFO: estimated_time_of_next_patient after substarcting 20 mins: 2024-05-29 16:50:00  
+[2024-05-29 16:48:09] local.INFO: estimated_time_of_next_patient after substarcting checkin difference: 2024-05-29 16:39:00  
+[2024-05-29 16:48:09] local.INFO: next token exists -> next token number is 3  
+[2024-05-29 16:48:09] local.INFO: next token exists -> next token estimate time 2024-05-29 16:39:00  
+[2024-05-29 16:48:09] local.INFO: each token duration of upcoming tokens10  
+[2024-05-29 16:48:09] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:48:09] local.INFO: upcoming token number in loop4  
+[2024-05-29 16:48:09] local.INFO: estimate time2024-05-29 16:49:00  
+[2024-05-29 16:48:09] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:48:09] local.INFO: upcoming token number in loop5  
+[2024-05-29 16:48:09] local.INFO: estimate time2024-05-29 16:59:00  
+[2024-05-29 16:48:09] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:48:09] local.INFO: upcoming token number in loop6  
+[2024-05-29 16:48:09] local.INFO: estimate time2024-05-29 17:09:00  
+[2024-05-29 16:48:09] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:48:09] local.INFO: upcoming token number in loop7  
+[2024-05-29 16:48:09] local.INFO: estimate time2024-05-29 17:19:00  
+[2024-05-29 16:48:09] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:48:09] local.INFO: upcoming token number in loop8  
+[2024-05-29 16:48:09] local.INFO: estimate time2024-05-29 17:29:00  
+[2024-05-29 16:48:09] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:48:09] local.INFO: upcoming token number in loop9  
+[2024-05-29 16:48:09] local.INFO: estimate time2024-05-29 17:39:00  
+[2024-05-29 16:48:09] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:48:09] local.INFO: upcoming token number in loop10  
+[2024-05-29 16:48:09] local.INFO: estimate time2024-05-29 17:49:00  
+[2024-05-29 16:48:09] local.INFO:  break exists  
+[2024-05-29 16:48:09] local.INFO: break_start_time17:20  
+[2024-05-29 16:48:09] local.INFO: token number after break is 4  
+[2024-05-29 16:48:09] local.INFO: token number after break estimate2024-05-29 17:10:00  
+[2024-05-29 16:48:22] local.INFO: ADD test details api called on 04:48:22 PM  
+[2024-05-29 16:48:24] local.INFO: getTokensCheckInCheckOut04:48:24 PM  
+[2024-05-29 16:48:24] local.INFO: getTokensCheckInCheckOut 04:48:24 PM  
+[2024-05-29 16:48:24] local.INFO: getTokensCheckInCheckOut04:48:24 PM  
+[2024-05-29 16:48:24] local.INFO: getTokensCheckInCheckOut 04:48:24 PM  
+[2024-05-29 16:48:24] local.INFO: req type  if chkin  0  
+[2024-05-29 16:48:24] local.INFO: req type  if checkout  1  
+[2024-05-29 16:48:28] local.INFO: getTokensCheckInCheckOut04:48:28 PM  
+[2024-05-29 16:48:28] local.INFO: getTokensCheckInCheckOut 04:48:28 PM  
+[2024-05-29 16:48:28] local.INFO: getTokensCheckInCheckOut04:48:28 PM  
+[2024-05-29 16:48:28] local.INFO: getTokensCheckInCheckOut 04:48:28 PM  
+[2024-05-29 16:48:28] local.INFO: req type  if chkin  1  
+[2024-05-29 16:48:28] local.INFO: req type  if checkout  0  
+[2024-05-29 16:48:30] local.INFO: current token number for checkin is: 5  
+[2024-05-29 16:48:30] local.INFO: permanent checkin time 2024-05-29 17:40:00  
+[2024-05-29 16:48:30] local.INFO: permanent checkin time is greater than the current checkin time   
+[2024-05-29 16:48:30] local.INFO: checkin difference is 51  
+[2024-05-29 16:48:30] local.INFO: estimated_time_of_next_patient after adding token duration: 2024-05-29 17:50:00  
+[2024-05-29 16:48:30] local.INFO: estimated_time_of_next_patient after substarcting 20 mins: 2024-05-29 17:30:00  
+[2024-05-29 16:48:30] local.INFO: estimated_time_of_next_patient after substarcting checkin difference: 2024-05-29 16:39:00  
+[2024-05-29 16:48:30] local.INFO: next token exists -> next token number is 3  
+[2024-05-29 16:48:30] local.INFO: next token exists -> next token estimate time 2024-05-29 16:39:00  
+[2024-05-29 16:48:30] local.INFO: each token duration of upcoming tokens10  
+[2024-05-29 16:48:30] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:48:30] local.INFO: upcoming token number in loop4  
+[2024-05-29 16:48:30] local.INFO: estimate time2024-05-29 16:49:00  
+[2024-05-29 16:48:30] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:48:30] local.INFO: upcoming token number in loop6  
+[2024-05-29 16:48:30] local.INFO: estimate time2024-05-29 16:59:00  
+[2024-05-29 16:48:30] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:48:30] local.INFO: upcoming token number in loop7  
+[2024-05-29 16:48:30] local.INFO: estimate time2024-05-29 17:09:00  
+[2024-05-29 16:48:30] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:48:30] local.INFO: upcoming token number in loop8  
+[2024-05-29 16:48:30] local.INFO: estimate time2024-05-29 17:19:00  
+[2024-05-29 16:48:30] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:48:30] local.INFO: upcoming token number in loop9  
+[2024-05-29 16:48:30] local.INFO: estimate time2024-05-29 17:29:00  
+[2024-05-29 16:48:30] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:48:30] local.INFO: upcoming token number in loop10  
+[2024-05-29 16:48:30] local.INFO: estimate time2024-05-29 17:39:00  
+[2024-05-29 16:48:30] local.INFO:  break exists  
+[2024-05-29 16:56:11] local.INFO: Validation passed  
+[2024-05-29 16:56:11] local.INFO: Checked for existing breaks {"existing_break_check":{"Illuminate\\Database\\Eloquent\\Collection":[]}} 
+[2024-05-29 16:56:11] local.INFO: Saved doctor reschedule data {"doctor_reschedule_data":{"App\\Models\\DoctorReschedule":{"doctor_id":47,"clinic_id":"31","reschedule_type":3,"reschedule_duration":10,"reschedule_start_datetime":"2024-05-29T12:00:00.000000Z","reschedule_end_datetime":"2024-05-29T12:10:00.000000Z","schedule_type":"1","schedule_id":234,"break_start_time":"17:30:00","break_end_time":"17:40:00","updated_at":"2024-05-29T11:26:11.000000Z","created_at":"2024-05-29T11:26:11.000000Z","id":1}}} 
+[2024-05-29 16:56:11] local.INFO: Sent push notification {"response":{"multicast_id":4093646353969952646,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-29 16:56:11] local.INFO: Sent push notification {"response":{"multicast_id":5968232925360671277,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-29 16:56:12] local.INFO: Sent push notification {"response":{"multicast_id":6645915902384290278,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-29 16:56:12] local.INFO: Sent push notification {"response":{"multicast_id":8341053922783070592,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-29 16:56:13] local.INFO: Sent push notification {"response":{"multicast_id":2920122537365253322,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-29 16:56:13] local.INFO: Sent push notification {"response":{"multicast_id":8095041305652080259,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-29 16:56:13] local.INFO: Sent push notification {"response":{"multicast_id":8663726687767665263,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-29 16:56:13] local.INFO: Break process successful  
+[2024-05-29 16:56:28] local.INFO: getTokensCheckInCheckOut04:56:27 PM  
+[2024-05-29 16:56:28] local.INFO: getTokensCheckInCheckOut 04:56:27 PM  
+[2024-05-29 16:56:28] local.INFO: getTokensCheckInCheckOut04:56:27 PM  
+[2024-05-29 16:56:28] local.INFO: getTokensCheckInCheckOut 04:56:27 PM  
+[2024-05-29 16:56:28] local.INFO: req type  if chkin  1  
+[2024-05-29 16:56:28] local.INFO: req type  if checkout  0  
+[2024-05-29 16:56:30] local.INFO: current token number for checkin is: 1  
+[2024-05-29 16:56:30] local.INFO: permanent checkin time 2024-05-29 17:00:00  
+[2024-05-29 16:56:30] local.INFO: permanent checkin time is greater than the current checkin time   
+[2024-05-29 16:56:30] local.INFO: checkin difference is 3  
+[2024-05-29 16:56:30] local.INFO: estimated_time_of_next_patient after adding token duration: 2024-05-29 17:10:00  
+[2024-05-29 16:56:30] local.INFO: estimated_time_of_next_patient after substarcting 20 mins: 2024-05-29 16:50:00  
+[2024-05-29 16:56:30] local.INFO: estimated_time_of_next_patient after substarcting checkin difference: 2024-05-29 16:47:00  
+[2024-05-29 16:56:30] local.INFO: next token exists -> next token number is 2  
+[2024-05-29 16:56:30] local.INFO: next token exists -> next token estimate time 2024-05-29 16:47:00  
+[2024-05-29 16:56:30] local.INFO: each token duration of upcoming tokens10  
+[2024-05-29 16:56:30] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:56:30] local.INFO: upcoming token number in loop3  
+[2024-05-29 16:56:30] local.INFO: estimate time2024-05-29 16:57:00  
+[2024-05-29 16:56:30] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:56:30] local.INFO: upcoming token number in loop4  
+[2024-05-29 16:56:30] local.INFO: estimate time2024-05-29 17:07:00  
+[2024-05-29 16:56:30] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:56:30] local.INFO: upcoming token number in loop5  
+[2024-05-29 16:56:30] local.INFO: estimate time2024-05-29 17:17:00  
+[2024-05-29 16:56:30] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:56:30] local.INFO: upcoming token number in loop6  
+[2024-05-29 16:56:30] local.INFO: estimate time2024-05-29 17:27:00  
+[2024-05-29 16:56:30] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:56:30] local.INFO: upcoming token number in loop7  
+[2024-05-29 16:56:30] local.INFO: estimate time2024-05-29 17:37:00  
+[2024-05-29 16:56:30] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:56:30] local.INFO: upcoming token number in loop8  
+[2024-05-29 16:56:30] local.INFO: estimate time2024-05-29 17:47:00  
+[2024-05-29 16:56:30] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:56:30] local.INFO: upcoming token number in loop9  
+[2024-05-29 16:56:30] local.INFO: estimate time2024-05-29 17:57:00  
+[2024-05-29 16:56:30] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:56:30] local.INFO: upcoming token number in loop10  
+[2024-05-29 16:56:30] local.INFO: estimate time2024-05-29 18:07:00  
+[2024-05-29 16:56:30] local.INFO:  break exists  
+[2024-05-29 16:56:30] local.INFO: break_start_time17:30  
+[2024-05-29 16:56:30] local.INFO: token number after break is 4  
+[2024-05-29 16:56:30] local.INFO: token number after break estimate2024-05-29 17:20:00  
+[2024-05-29 16:56:51] local.INFO: ADD test details api called on 04:56:51 PM  
+[2024-05-29 16:56:53] local.INFO: getTokensCheckInCheckOut04:56:53 PM  
+[2024-05-29 16:56:53] local.INFO: getTokensCheckInCheckOut 04:56:53 PM  
+[2024-05-29 16:56:53] local.INFO: getTokensCheckInCheckOut04:56:53 PM  
+[2024-05-29 16:56:53] local.INFO: getTokensCheckInCheckOut 04:56:53 PM  
+[2024-05-29 16:56:53] local.INFO: req type  if chkin  0  
+[2024-05-29 16:56:53] local.INFO: req type  if checkout  1  
+[2024-05-29 16:57:08] local.INFO: getTokensCheckInCheckOut04:57:08 PM  
+[2024-05-29 16:57:08] local.INFO: getTokensCheckInCheckOut 04:57:08 PM  
+[2024-05-29 16:57:08] local.INFO: getTokensCheckInCheckOut04:57:08 PM  
+[2024-05-29 16:57:08] local.INFO: getTokensCheckInCheckOut 04:57:08 PM  
+[2024-05-29 16:57:08] local.INFO: req type  if chkin  1  
+[2024-05-29 16:57:08] local.INFO: req type  if checkout  0  
+[2024-05-29 16:57:10] local.INFO: current token number for checkin is: 5  
+[2024-05-29 16:57:10] local.INFO: permanent checkin time 2024-05-29 17:50:00  
+[2024-05-29 16:57:10] local.INFO: permanent checkin time is greater than the current checkin time   
+[2024-05-29 16:57:10] local.INFO: checkin difference is 52  
+[2024-05-29 16:57:10] local.INFO: estimated_time_of_next_patient after adding token duration: 2024-05-29 18:00:00  
+[2024-05-29 16:57:10] local.INFO: estimated_time_of_next_patient after substarcting 20 mins: 2024-05-29 17:40:00  
+[2024-05-29 16:57:10] local.INFO: estimated_time_of_next_patient after substarcting checkin difference: 2024-05-29 16:48:00  
+[2024-05-29 16:57:10] local.INFO: next token exists -> next token number is 2  
+[2024-05-29 16:57:10] local.INFO: next token exists -> next token estimate time 2024-05-29 16:48:00  
+[2024-05-29 16:57:10] local.INFO: each token duration of upcoming tokens10  
+[2024-05-29 16:57:10] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:57:10] local.INFO: upcoming token number in loop3  
+[2024-05-29 16:57:10] local.INFO: estimate time2024-05-29 16:58:00  
+[2024-05-29 16:57:10] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:57:10] local.INFO: upcoming token number in loop4  
+[2024-05-29 16:57:10] local.INFO: estimate time2024-05-29 17:08:00  
+[2024-05-29 16:57:10] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:57:10] local.INFO: upcoming token number in loop6  
+[2024-05-29 16:57:10] local.INFO: estimate time2024-05-29 17:18:00  
+[2024-05-29 16:57:10] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:57:10] local.INFO: upcoming token number in loop7  
+[2024-05-29 16:57:10] local.INFO: estimate time2024-05-29 17:28:00  
+[2024-05-29 16:57:10] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:57:10] local.INFO: upcoming token number in loop8  
+[2024-05-29 16:57:10] local.INFO: estimate time2024-05-29 17:38:00  
+[2024-05-29 16:57:10] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:57:10] local.INFO: upcoming token number in loop9  
+[2024-05-29 16:57:10] local.INFO: estimate time2024-05-29 17:48:00  
+[2024-05-29 16:57:10] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:57:10] local.INFO: upcoming token number in loop10  
+[2024-05-29 16:57:10] local.INFO: estimate time2024-05-29 17:58:00  
+[2024-05-29 16:57:10] local.INFO:  break exists  
+[2024-05-29 16:57:10] local.INFO: break_start_time17:30  
+[2024-05-29 16:57:10] local.INFO: token number after break is 4  
+[2024-05-29 16:57:10] local.INFO: token number after break estimate2024-05-29 17:20:00  
+[2024-05-29 16:57:21] local.INFO: ADD test details api called on 04:57:21 PM  
+[2024-05-29 16:57:23] local.INFO: getTokensCheckInCheckOut04:57:23 PM  
+[2024-05-29 16:57:23] local.INFO: getTokensCheckInCheckOut 04:57:23 PM  
+[2024-05-29 16:57:23] local.INFO: getTokensCheckInCheckOut04:57:23 PM  
+[2024-05-29 16:57:23] local.INFO: getTokensCheckInCheckOut 04:57:23 PM  
+[2024-05-29 16:57:23] local.INFO: req type  if chkin  0  
+[2024-05-29 16:57:23] local.INFO: req type  if checkout  1  
+[2024-05-29 16:57:29] local.INFO: getTokensCheckInCheckOut04:57:29 PM  
+[2024-05-29 16:57:29] local.INFO: getTokensCheckInCheckOut 04:57:29 PM  
+[2024-05-29 16:57:29] local.INFO: getTokensCheckInCheckOut04:57:29 PM  
+[2024-05-29 16:57:29] local.INFO: getTokensCheckInCheckOut 04:57:29 PM  
+[2024-05-29 16:57:29] local.INFO: req type  if chkin  1  
+[2024-05-29 16:57:29] local.INFO: req type  if checkout  0  
+[2024-05-29 16:57:31] local.INFO: current token number for checkin is: 2  
+[2024-05-29 16:57:31] local.INFO: permanent checkin time 2024-05-29 17:10:00  
+[2024-05-29 16:57:31] local.INFO: permanent checkin time is greater than the current checkin time   
+[2024-05-29 16:57:31] local.INFO: checkin difference is 12  
+[2024-05-29 16:57:31] local.INFO: estimated_time_of_next_patient after adding token duration: 2024-05-29 17:20:00  
+[2024-05-29 16:57:31] local.INFO: estimated_time_of_next_patient after substarcting 20 mins: 2024-05-29 17:00:00  
+[2024-05-29 16:57:31] local.INFO: estimated_time_of_next_patient after substarcting checkin difference: 2024-05-29 16:48:00  
+[2024-05-29 16:57:31] local.INFO: next token exists -> next token number is 3  
+[2024-05-29 16:57:31] local.INFO: next token exists -> next token estimate time 2024-05-29 16:48:00  
+[2024-05-29 16:57:31] local.INFO: each token duration of upcoming tokens10  
+[2024-05-29 16:57:31] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:57:31] local.INFO: upcoming token number in loop4  
+[2024-05-29 16:57:31] local.INFO: estimate time2024-05-29 16:58:00  
+[2024-05-29 16:57:31] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:57:31] local.INFO: upcoming token number in loop6  
+[2024-05-29 16:57:31] local.INFO: estimate time2024-05-29 17:08:00  
+[2024-05-29 16:57:31] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:57:31] local.INFO: upcoming token number in loop7  
+[2024-05-29 16:57:31] local.INFO: estimate time2024-05-29 17:18:00  
+[2024-05-29 16:57:31] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:57:31] local.INFO: upcoming token number in loop8  
+[2024-05-29 16:57:31] local.INFO: estimate time2024-05-29 17:28:00  
+[2024-05-29 16:57:31] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:57:31] local.INFO: upcoming token number in loop9  
+[2024-05-29 16:57:31] local.INFO: estimate time2024-05-29 17:38:00  
+[2024-05-29 16:57:31] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:57:31] local.INFO: upcoming token number in loop10  
+[2024-05-29 16:57:31] local.INFO: estimate time2024-05-29 17:48:00  
+[2024-05-29 16:57:31] local.INFO:  break exists  
+[2024-05-29 16:57:31] local.INFO: break_start_time17:30  
+[2024-05-29 16:57:31] local.INFO: token number after break is 4  
+[2024-05-29 16:57:31] local.INFO: token number after break estimate2024-05-29 17:20:00  
+[2024-05-29 16:58:02] local.INFO: ADD test details api called on 04:58:02 PM  
+[2024-05-29 16:58:04] local.INFO: getTokensCheckInCheckOut04:58:04 PM  
+[2024-05-29 16:58:04] local.INFO: getTokensCheckInCheckOut 04:58:04 PM  
+[2024-05-29 16:58:04] local.INFO: getTokensCheckInCheckOut04:58:04 PM  
+[2024-05-29 16:58:04] local.INFO: getTokensCheckInCheckOut 04:58:04 PM  
+[2024-05-29 16:58:04] local.INFO: req type  if chkin  0  
+[2024-05-29 16:58:04] local.INFO: req type  if checkout  1  
+[2024-05-29 16:58:07] local.INFO: getTokensCheckInCheckOut04:58:07 PM  
+[2024-05-29 16:58:07] local.INFO: getTokensCheckInCheckOut 04:58:07 PM  
+[2024-05-29 16:58:07] local.INFO: getTokensCheckInCheckOut04:58:07 PM  
+[2024-05-29 16:58:07] local.INFO: getTokensCheckInCheckOut 04:58:07 PM  
+[2024-05-29 16:58:07] local.INFO: req type  if chkin  1  
+[2024-05-29 16:58:07] local.INFO: req type  if checkout  0  
+[2024-05-29 16:58:09] local.INFO: current token number for checkin is: 3  
+[2024-05-29 16:58:09] local.INFO: permanent checkin time 2024-05-29 17:20:00  
+[2024-05-29 16:58:09] local.INFO: permanent checkin time is greater than the current checkin time   
+[2024-05-29 16:58:09] local.INFO: checkin difference is 21  
+[2024-05-29 16:58:09] local.INFO: estimated_time_of_next_patient after adding token duration: 2024-05-29 17:30:00  
+[2024-05-29 16:58:09] local.INFO: estimated_time_of_next_patient after substarcting 20 mins: 2024-05-29 17:10:00  
+[2024-05-29 16:58:09] local.INFO: estimated_time_of_next_patient after substarcting checkin difference: 2024-05-29 16:49:00  
+[2024-05-29 16:58:09] local.INFO: next token exists -> next token number is 4  
+[2024-05-29 16:58:09] local.INFO: next token exists -> next token estimate time 2024-05-29 16:49:00  
+[2024-05-29 16:58:09] local.INFO: each token duration of upcoming tokens10  
+[2024-05-29 16:58:09] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:58:09] local.INFO: upcoming token number in loop6  
+[2024-05-29 16:58:09] local.INFO: estimate time2024-05-29 16:59:00  
+[2024-05-29 16:58:09] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:58:09] local.INFO: upcoming token number in loop7  
+[2024-05-29 16:58:09] local.INFO: estimate time2024-05-29 17:09:00  
+[2024-05-29 16:58:09] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:58:09] local.INFO: upcoming token number in loop8  
+[2024-05-29 16:58:09] local.INFO: estimate time2024-05-29 17:19:00  
+[2024-05-29 16:58:09] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:58:09] local.INFO: upcoming token number in loop9  
+[2024-05-29 16:58:09] local.INFO: estimate time2024-05-29 17:29:00  
+[2024-05-29 16:58:09] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:58:09] local.INFO: upcoming token number in loop10  
+[2024-05-29 16:58:09] local.INFO: estimate time2024-05-29 17:39:00  
+[2024-05-29 16:58:09] local.INFO:  break exists  
+[2024-05-29 16:58:09] local.INFO: break_start_time17:30  
+[2024-05-29 16:58:09] local.INFO: token number after break is 4  
+[2024-05-29 16:58:09] local.INFO: token number after break estimate2024-05-29 17:20:00  
+[2024-05-29 16:58:36] local.INFO: ADD test details api called on 04:58:36 PM  
+[2024-05-29 16:58:38] local.INFO: getTokensCheckInCheckOut04:58:38 PM  
+[2024-05-29 16:58:38] local.INFO: getTokensCheckInCheckOut 04:58:38 PM  
+[2024-05-29 16:58:38] local.INFO: getTokensCheckInCheckOut04:58:38 PM  
+[2024-05-29 16:58:38] local.INFO: getTokensCheckInCheckOut 04:58:38 PM  
+[2024-05-29 16:58:38] local.INFO: req type  if chkin  0  
+[2024-05-29 16:58:38] local.INFO: req type  if checkout  1  
+[2024-05-29 16:58:53] local.INFO: getTokensCheckInCheckOut04:58:53 PM  
+[2024-05-29 16:58:53] local.INFO: getTokensCheckInCheckOut 04:58:53 PM  
+[2024-05-29 16:58:53] local.INFO: getTokensCheckInCheckOut04:58:53 PM  
+[2024-05-29 16:58:53] local.INFO: getTokensCheckInCheckOut 04:58:53 PM  
+[2024-05-29 16:58:53] local.INFO: req type  if chkin  1  
+[2024-05-29 16:58:53] local.INFO: req type  if checkout  0  
+[2024-05-29 16:58:56] local.INFO: current token number for checkin is: 4  
+[2024-05-29 16:58:56] local.INFO: permanent checkin time 2024-05-29 17:40:00  
+[2024-05-29 16:58:56] local.INFO: permanent checkin time is greater than the current checkin time   
+[2024-05-29 16:58:56] local.INFO: checkin difference is 41  
+[2024-05-29 16:58:56] local.INFO: estimated_time_of_next_patient after adding token duration: 2024-05-29 17:50:00  
+[2024-05-29 16:58:56] local.INFO: estimated_time_of_next_patient after substarcting 20 mins: 2024-05-29 17:30:00  
+[2024-05-29 16:58:56] local.INFO: estimated_time_of_next_patient after substarcting checkin difference: 2024-05-29 16:49:00  
+[2024-05-29 16:58:56] local.INFO: next token exists -> next token number is 6  
+[2024-05-29 16:58:56] local.INFO: next token exists -> next token estimate time 2024-05-29 16:49:00  
+[2024-05-29 16:58:56] local.INFO: each token duration of upcoming tokens10  
+[2024-05-29 16:58:56] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:58:56] local.INFO: upcoming token number in loop7  
+[2024-05-29 16:58:56] local.INFO: estimate time2024-05-29 16:59:00  
+[2024-05-29 16:58:56] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:58:56] local.INFO: upcoming token number in loop8  
+[2024-05-29 16:58:56] local.INFO: estimate time2024-05-29 17:09:00  
+[2024-05-29 16:58:56] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:58:56] local.INFO: upcoming token number in loop9  
+[2024-05-29 16:58:56] local.INFO: estimate time2024-05-29 17:19:00  
+[2024-05-29 16:58:56] local.INFO: Upcoming tokens loop started  
+[2024-05-29 16:58:56] local.INFO: upcoming token number in loop10  
+[2024-05-29 16:58:56] local.INFO: estimate time2024-05-29 17:29:00  
+[2024-05-29 16:58:56] local.INFO:  break exists  
+[2024-05-29 16:58:56] local.INFO: break_start_time17:30  
+[2024-05-29 16:58:56] local.INFO: token number after break is 6  
+[2024-05-29 16:58:56] local.INFO: token number after break estimate2024-05-29 17:40:00  
+[2024-05-29 17:01:06] local.INFO: uniquePatientDetails = {"mediezy_patient_id":"MAA01811"}  
+[2024-05-29 17:02:28] local.INFO: Token Time:   
+[2024-05-29 17:02:28] local.INFO: Token Time:   
+[2024-05-29 17:02:28] local.INFO: Token Time:   
+[2024-05-29 17:02:28] local.INFO: Token Time:   
+[2024-05-29 17:02:28] local.INFO: Token Time:   
+[2024-05-29 17:03:05] local.INFO: Token Time:   
+[2024-05-29 17:03:05] local.INFO: Token Time:   
+[2024-05-29 17:03:05] local.INFO: Token Time:   
+[2024-05-29 17:03:05] local.INFO: Token Time:   
+[2024-05-29 17:03:05] local.INFO: Token Time:   
+[2024-05-29 17:12:26] local.INFO: uniquePatientDetails = {"mediezy_patient_id":"MAA01812"}  
+[2024-05-29 17:12:43] local.INFO: uniquePatientDetails = {"mediezy_patient_id":"MAA01813"}  
+[2024-05-29 17:12:54] local.INFO: getTokensCheckInCheckOut05:12:54 PM  
+[2024-05-29 17:12:54] local.INFO: getTokensCheckInCheckOut 05:12:54 PM  
+[2024-05-29 17:12:54] local.INFO: getTokensCheckInCheckOut05:12:54 PM  
+[2024-05-29 17:12:54] local.INFO: getTokensCheckInCheckOut 05:12:54 PM  
+[2024-05-29 17:12:54] local.INFO: req type  if chkin  1  
+[2024-05-29 17:12:54] local.INFO: req type  if checkout  0  
+[2024-05-29 17:12:56] local.INFO: current token number for checkin is: 1  
+[2024-05-29 17:12:56] local.INFO: permanent checkin time 2024-05-29 17:30:00  
+[2024-05-29 17:12:56] local.INFO: permanent checkin time is greater than the current checkin time   
+[2024-05-29 17:12:56] local.INFO: checkin difference is 17  
+[2024-05-29 17:12:56] local.INFO: estimated_time_of_next_patient after adding token duration: 2024-05-29 17:35:00  
+[2024-05-29 17:12:56] local.INFO: estimated_time_of_next_patient after substarcting 20 mins: 2024-05-29 17:15:00  
+[2024-05-29 17:12:56] local.INFO: estimated_time_of_next_patient after substarcting checkin difference: 2024-05-29 16:58:00  
+[2024-05-29 17:12:59] local.INFO: getTokensCheckInCheckOut05:12:59 PM  
+[2024-05-29 17:12:59] local.INFO: getTokensCheckInCheckOut 05:12:59 PM  
+[2024-05-29 17:12:59] local.INFO: getTokensCheckInCheckOut05:12:59 PM  
+[2024-05-29 17:12:59] local.INFO: getTokensCheckInCheckOut 05:12:59 PM  
+[2024-05-29 17:12:59] local.INFO: req type  if chkin  1  
+[2024-05-29 17:12:59] local.INFO: req type  if checkout  0  
+[2024-05-29 17:13:01] local.INFO: current token number for checkin is: 19  
+[2024-05-29 17:13:01] local.INFO: permanent checkin time 2024-05-29 19:30:00  
+[2024-05-29 17:13:01] local.INFO: permanent checkin time is greater than the current checkin time   
+[2024-05-29 17:13:01] local.INFO: checkin difference is 136  
+[2024-05-29 17:13:01] local.INFO: estimated_time_of_next_patient after adding token duration: 2024-05-29 19:35:00  
+[2024-05-29 17:13:01] local.INFO: estimated_time_of_next_patient after substarcting 20 mins: 2024-05-29 19:15:00  
+[2024-05-29 17:13:01] local.INFO: estimated_time_of_next_patient after substarcting checkin difference: 2024-05-29 16:59:00  
+[2024-05-29 17:15:04] local.INFO: uniquePatientDetails = {"mediezy_patient_id":"MAA01814"}  
+[2024-05-29 17:15:19] local.INFO: uniquePatientDetails = {"mediezy_patient_id":"MAA01815"}  
+[2024-05-29 17:15:49] local.INFO: uniquePatientDetails = {"mediezy_patient_id":"MAA01816"}  
+[2024-05-29 17:16:01] local.INFO: getTokensCheckInCheckOut05:16:01 PM  
+[2024-05-29 17:16:01] local.INFO: getTokensCheckInCheckOut 05:16:01 PM  
+[2024-05-29 17:16:01] local.INFO: getTokensCheckInCheckOut05:16:01 PM  
+[2024-05-29 17:16:01] local.INFO: getTokensCheckInCheckOut 05:16:01 PM  
+[2024-05-29 17:16:01] local.INFO: req type  if chkin  1  
+[2024-05-29 17:16:01] local.INFO: req type  if checkout  0  
+[2024-05-29 17:16:02] local.INFO: getTokensCheckInCheckOut05:16:02 PM  
+[2024-05-29 17:16:02] local.INFO: getTokensCheckInCheckOut 05:16:02 PM  
+[2024-05-29 17:16:02] local.INFO: getTokensCheckInCheckOut05:16:02 PM  
+[2024-05-29 17:16:02] local.INFO: getTokensCheckInCheckOut 05:16:02 PM  
+[2024-05-29 17:16:02] local.INFO: req type  if chkin  0  
+[2024-05-29 17:16:02] local.INFO: req type  if checkout  1  
+[2024-05-29 17:16:03] local.INFO: current token number for checkin is: 2  
+[2024-05-29 17:16:03] local.INFO: permanent checkin time 2024-05-29 19:40:00  
+[2024-05-29 17:16:03] local.INFO: permanent checkin time is greater than the current checkin time   
+[2024-05-29 17:16:03] local.INFO: checkin difference is 143  
+[2024-05-29 17:16:03] local.INFO: estimated_time_of_next_patient after adding token duration: 2024-05-29 19:50:00  
+[2024-05-29 17:16:03] local.INFO: estimated_time_of_next_patient after substarcting 20 mins: 2024-05-29 19:30:00  
+[2024-05-29 17:16:03] local.INFO: estimated_time_of_next_patient after substarcting checkin difference: 2024-05-29 17:07:00  
+[2024-05-29 17:16:03] local.INFO: next token exists -> next token number is 2  
+[2024-05-29 17:16:03] local.INFO: next token exists -> next token estimate time 2024-05-29 17:07:00  
+[2024-05-29 17:16:03] local.INFO: each token duration of upcoming tokens10  
+[2024-05-29 17:16:03] local.INFO:  break exists  
+[2024-05-29 17:16:04] local.INFO: getTokensCheckInCheckOut05:16:04 PM  
+[2024-05-29 17:16:04] local.INFO: getTokensCheckInCheckOut 05:16:04 PM  
+[2024-05-29 17:16:04] local.INFO: getTokensCheckInCheckOut05:16:04 PM  
+[2024-05-29 17:16:04] local.INFO: getTokensCheckInCheckOut 05:16:04 PM  
+[2024-05-29 17:16:04] local.INFO: req type  if chkin  1  
+[2024-05-29 17:16:04] local.INFO: req type  if checkout  0  
+[2024-05-29 17:16:05] local.INFO: getTokensCheckInCheckOut05:16:05 PM  
+[2024-05-29 17:16:05] local.INFO: getTokensCheckInCheckOut 05:16:05 PM  
+[2024-05-29 17:16:05] local.INFO: getTokensCheckInCheckOut05:16:05 PM  
+[2024-05-29 17:16:05] local.INFO: getTokensCheckInCheckOut 05:16:05 PM  
+[2024-05-29 17:16:05] local.INFO: req type  if chkin  0  
+[2024-05-29 17:16:05] local.INFO: req type  if checkout  1  
+[2024-05-29 17:16:06] local.INFO: current token number for checkin is: 2  
+[2024-05-29 17:16:06] local.INFO: permanent checkin time 2024-05-29 19:40:00  
+[2024-05-29 17:16:06] local.INFO: permanent checkin time is greater than the current checkin time   
+[2024-05-29 17:16:06] local.INFO: checkin difference is 143  
+[2024-05-29 17:16:06] local.INFO: estimated_time_of_next_patient after adding token duration: 2024-05-29 19:50:00  
+[2024-05-29 17:16:06] local.INFO: estimated_time_of_next_patient after substarcting 20 mins: 2024-05-29 19:30:00  
+[2024-05-29 17:16:06] local.INFO: estimated_time_of_next_patient after substarcting checkin difference: 2024-05-29 17:07:00  
+[2024-05-29 17:18:13] local.INFO: getTokensCheckInCheckOut05:18:13 PM  
+[2024-05-29 17:18:13] local.INFO: getTokensCheckInCheckOut 05:18:13 PM  
+[2024-05-29 17:18:13] local.INFO: getTokensCheckInCheckOut05:18:13 PM  
+[2024-05-29 17:18:13] local.INFO: getTokensCheckInCheckOut 05:18:13 PM  
+[2024-05-29 17:18:13] local.INFO: req type  if chkin  0  
+[2024-05-29 17:18:13] local.INFO: req type  if checkout  1  
+[2024-05-29 17:18:38] local.INFO: getTokensCheckInCheckOut05:18:38 PM  
+[2024-05-29 17:18:38] local.INFO: getTokensCheckInCheckOut 05:18:38 PM  
+[2024-05-29 17:18:38] local.INFO: getTokensCheckInCheckOut05:18:38 PM  
+[2024-05-29 17:18:38] local.INFO: getTokensCheckInCheckOut 05:18:38 PM  
+[2024-05-29 17:18:38] local.INFO: req type  if chkin  0  
+[2024-05-29 17:18:38] local.INFO: req type  if checkout  1  
+[2024-05-29 17:23:14] local.INFO: Token Time:   
+[2024-05-29 17:23:14] local.INFO: Token Time:   
+[2024-05-29 17:23:14] local.INFO: Token Time:   
+[2024-05-29 17:23:14] local.INFO: Token Time:   
+[2024-05-29 17:23:14] local.INFO: Token Time:   
+[2024-05-29 17:23:50] local.INFO: Validation passed  
+[2024-05-29 17:23:50] local.INFO: Checked for existing breaks {"existing_break_check":{"Illuminate\\Database\\Eloquent\\Collection":[]}} 
+[2024-05-29 17:23:50] local.INFO: Saved doctor reschedule data {"doctor_reschedule_data":{"App\\Models\\DoctorReschedule":{"doctor_id":47,"clinic_id":"31","reschedule_type":3,"reschedule_duration":10,"reschedule_start_datetime":"2024-05-29T12:30:00.000000Z","reschedule_end_datetime":"2024-05-29T12:40:00.000000Z","schedule_type":"1","schedule_id":242,"break_start_time":"18:00:00","break_end_time":"18:10:00","updated_at":"2024-05-29T11:53:50.000000Z","created_at":"2024-05-29T11:53:50.000000Z","id":1}}} 
+[2024-05-29 17:23:50] local.INFO: Sent push notification {"response":{"multicast_id":894519487020001078,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-29 17:23:51] local.INFO: Sent push notification {"response":{"multicast_id":989203604642728815,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-29 17:23:51] local.INFO: Sent push notification {"response":{"multicast_id":5139514498223146348,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-29 17:23:51] local.INFO: Sent push notification {"response":{"multicast_id":1125845879520067874,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-29 17:23:52] local.INFO: Sent push notification {"response":{"multicast_id":8579378781253490071,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-29 17:23:52] local.INFO: Sent push notification {"response":{"multicast_id":4521405301333850833,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-29 17:23:52] local.INFO: Sent push notification {"response":{"multicast_id":1111343011286307774,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-29 17:23:53] local.INFO: Break process successful  
+[2024-05-29 17:24:11] local.INFO: getTokensCheckInCheckOut05:24:11 PM  
+[2024-05-29 17:24:11] local.INFO: getTokensCheckInCheckOut 05:24:11 PM  
+[2024-05-29 17:24:11] local.INFO: getTokensCheckInCheckOut05:24:11 PM  
+[2024-05-29 17:24:11] local.INFO: getTokensCheckInCheckOut 05:24:11 PM  
+[2024-05-29 17:24:11] local.INFO: req type  if chkin  1  
+[2024-05-29 17:24:11] local.INFO: req type  if checkout  0  
+[2024-05-29 17:24:13] local.INFO: current token number for checkin is: 1  
+[2024-05-29 17:24:13] local.INFO: permanent checkin time 2024-05-29 17:30:00  
+[2024-05-29 17:24:13] local.INFO: permanent checkin time is greater than the current checkin time   
+[2024-05-29 17:24:13] local.INFO: checkin difference is 5  
+[2024-05-29 17:24:13] local.INFO: estimated_time_of_next_patient after adding token duration: 2024-05-29 17:40:00  
+[2024-05-29 17:24:13] local.INFO: estimated_time_of_next_patient after substarcting 20 mins: 2024-05-29 17:20:00  
+[2024-05-29 17:24:13] local.INFO: estimated_time_of_next_patient after substarcting checkin difference: 2024-05-29 17:15:00  
+[2024-05-29 17:24:13] local.INFO: next token exists -> next token number is 2  
+[2024-05-29 17:24:13] local.INFO: next token exists -> next token estimate time 2024-05-29 17:15:00  
+[2024-05-29 17:24:13] local.INFO: each token duration of upcoming tokens10  
+[2024-05-29 17:24:13] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:24:13] local.INFO: upcoming token number in loop3  
+[2024-05-29 17:24:13] local.INFO: estimate time2024-05-29 17:25:00  
+[2024-05-29 17:24:13] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:24:13] local.INFO: upcoming token number in loop4  
+[2024-05-29 17:24:13] local.INFO: estimate time2024-05-29 17:35:00  
+[2024-05-29 17:24:13] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:24:13] local.INFO: upcoming token number in loop5  
+[2024-05-29 17:24:13] local.INFO: estimate time2024-05-29 17:45:00  
+[2024-05-29 17:24:13] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:24:13] local.INFO: upcoming token number in loop6  
+[2024-05-29 17:24:13] local.INFO: estimate time2024-05-29 17:55:00  
+[2024-05-29 17:24:13] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:24:13] local.INFO: upcoming token number in loop7  
+[2024-05-29 17:24:13] local.INFO: estimate time2024-05-29 18:05:00  
+[2024-05-29 17:24:13] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:24:13] local.INFO: upcoming token number in loop8  
+[2024-05-29 17:24:13] local.INFO: estimate time2024-05-29 18:15:00  
+[2024-05-29 17:24:13] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:24:13] local.INFO: upcoming token number in loop9  
+[2024-05-29 17:24:13] local.INFO: estimate time2024-05-29 18:25:00  
+[2024-05-29 17:24:13] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:24:13] local.INFO: upcoming token number in loop10  
+[2024-05-29 17:24:13] local.INFO: estimate time2024-05-29 18:35:00  
+[2024-05-29 17:24:13] local.INFO:  break exists  
+[2024-05-29 17:24:13] local.INFO: break_start_time18:00  
+[2024-05-29 17:24:13] local.INFO: token number after break is 4  
+[2024-05-29 17:24:13] local.INFO: token number after break estimate2024-05-29 17:50:00  
+[2024-05-29 17:24:33] local.INFO: ADD test details api called on 05:24:33 PM  
+[2024-05-29 17:24:35] local.INFO: getTokensCheckInCheckOut05:24:35 PM  
+[2024-05-29 17:24:35] local.INFO: getTokensCheckInCheckOut 05:24:35 PM  
+[2024-05-29 17:24:35] local.INFO: getTokensCheckInCheckOut05:24:35 PM  
+[2024-05-29 17:24:35] local.INFO: getTokensCheckInCheckOut 05:24:35 PM  
+[2024-05-29 17:24:35] local.INFO: req type  if chkin  0  
+[2024-05-29 17:24:35] local.INFO: req type  if checkout  1  
+[2024-05-29 17:25:07] local.INFO: getTokensCheckInCheckOut05:25:07 PM  
+[2024-05-29 17:25:07] local.INFO: getTokensCheckInCheckOut 05:25:07 PM  
+[2024-05-29 17:25:07] local.INFO: getTokensCheckInCheckOut05:25:07 PM  
+[2024-05-29 17:25:07] local.INFO: getTokensCheckInCheckOut 05:25:07 PM  
+[2024-05-29 17:25:07] local.INFO: req type  if chkin  1  
+[2024-05-29 17:25:07] local.INFO: req type  if checkout  0  
+[2024-05-29 17:25:09] local.INFO: current token number for checkin is: 2  
+[2024-05-29 17:25:09] local.INFO: permanent checkin time 2024-05-29 17:40:00  
+[2024-05-29 17:25:09] local.INFO: permanent checkin time is greater than the current checkin time   
+[2024-05-29 17:25:09] local.INFO: checkin difference is 14  
+[2024-05-29 17:25:09] local.INFO: estimated_time_of_next_patient after adding token duration: 2024-05-29 17:50:00  
+[2024-05-29 17:25:09] local.INFO: estimated_time_of_next_patient after substarcting 20 mins: 2024-05-29 17:30:00  
+[2024-05-29 17:25:09] local.INFO: estimated_time_of_next_patient after substarcting checkin difference: 2024-05-29 17:16:00  
+[2024-05-29 17:25:09] local.INFO: next token exists -> next token number is 3  
+[2024-05-29 17:25:09] local.INFO: next token exists -> next token estimate time 2024-05-29 17:16:00  
+[2024-05-29 17:25:09] local.INFO: each token duration of upcoming tokens10  
+[2024-05-29 17:25:09] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:25:09] local.INFO: upcoming token number in loop4  
+[2024-05-29 17:25:09] local.INFO: estimate time2024-05-29 17:26:00  
+[2024-05-29 17:25:09] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:25:09] local.INFO: upcoming token number in loop5  
+[2024-05-29 17:25:09] local.INFO: estimate time2024-05-29 17:36:00  
+[2024-05-29 17:25:09] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:25:09] local.INFO: upcoming token number in loop6  
+[2024-05-29 17:25:09] local.INFO: estimate time2024-05-29 17:46:00  
+[2024-05-29 17:25:09] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:25:09] local.INFO: upcoming token number in loop7  
+[2024-05-29 17:25:09] local.INFO: estimate time2024-05-29 17:56:00  
+[2024-05-29 17:25:09] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:25:09] local.INFO: upcoming token number in loop8  
+[2024-05-29 17:25:09] local.INFO: estimate time2024-05-29 18:06:00  
+[2024-05-29 17:25:09] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:25:09] local.INFO: upcoming token number in loop9  
+[2024-05-29 17:25:09] local.INFO: estimate time2024-05-29 18:16:00  
+[2024-05-29 17:25:09] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:25:09] local.INFO: upcoming token number in loop10  
+[2024-05-29 17:25:09] local.INFO: estimate time2024-05-29 18:26:00  
+[2024-05-29 17:25:09] local.INFO:  break exists  
+[2024-05-29 17:25:09] local.INFO: break_start_time18:00  
+[2024-05-29 17:25:09] local.INFO: token number after break is 4  
+[2024-05-29 17:25:09] local.INFO: token number after break estimate2024-05-29 17:50:00  
+[2024-05-29 17:25:29] local.INFO: ADD test details api called on 05:25:29 PM  
+[2024-05-29 17:25:31] local.INFO: getTokensCheckInCheckOut05:25:31 PM  
+[2024-05-29 17:25:31] local.INFO: getTokensCheckInCheckOut 05:25:31 PM  
+[2024-05-29 17:25:31] local.INFO: getTokensCheckInCheckOut05:25:31 PM  
+[2024-05-29 17:25:31] local.INFO: getTokensCheckInCheckOut 05:25:31 PM  
+[2024-05-29 17:25:31] local.INFO: req type  if chkin  0  
+[2024-05-29 17:25:31] local.INFO: req type  if checkout  1  
+[2024-05-29 17:25:45] local.INFO: getTokensCheckInCheckOut05:25:45 PM  
+[2024-05-29 17:25:45] local.INFO: getTokensCheckInCheckOut 05:25:45 PM  
+[2024-05-29 17:25:45] local.INFO: getTokensCheckInCheckOut05:25:45 PM  
+[2024-05-29 17:25:45] local.INFO: getTokensCheckInCheckOut 05:25:45 PM  
+[2024-05-29 17:25:45] local.INFO: req type  if chkin  1  
+[2024-05-29 17:25:45] local.INFO: req type  if checkout  0  
+[2024-05-29 17:25:47] local.INFO: ADD test details api called on 05:25:47 PM  
+[2024-05-29 17:25:47] local.INFO: current token number for checkin is: 3  
+[2024-05-29 17:25:47] local.INFO: permanent checkin time 2024-05-29 17:50:00  
+[2024-05-29 17:25:47] local.INFO: permanent checkin time is greater than the current checkin time   
+[2024-05-29 17:25:47] local.INFO: checkin difference is 24  
+[2024-05-29 17:25:47] local.INFO: estimated_time_of_next_patient after adding token duration: 2024-05-29 18:00:00  
+[2024-05-29 17:25:47] local.INFO: estimated_time_of_next_patient after substarcting 20 mins: 2024-05-29 17:40:00  
+[2024-05-29 17:25:47] local.INFO: estimated_time_of_next_patient after substarcting checkin difference: 2024-05-29 17:16:00  
+[2024-05-29 17:25:47] local.INFO: next token exists -> next token number is 4  
+[2024-05-29 17:25:47] local.INFO: next token exists -> next token estimate time 2024-05-29 17:16:00  
+[2024-05-29 17:25:47] local.INFO: each token duration of upcoming tokens10  
+[2024-05-29 17:25:47] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:25:47] local.INFO: upcoming token number in loop5  
+[2024-05-29 17:25:47] local.INFO: estimate time2024-05-29 17:26:00  
+[2024-05-29 17:25:47] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:25:47] local.INFO: upcoming token number in loop6  
+[2024-05-29 17:25:47] local.INFO: estimate time2024-05-29 17:36:00  
+[2024-05-29 17:25:47] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:25:47] local.INFO: upcoming token number in loop7  
+[2024-05-29 17:25:47] local.INFO: estimate time2024-05-29 17:46:00  
+[2024-05-29 17:25:47] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:25:47] local.INFO: upcoming token number in loop8  
+[2024-05-29 17:25:47] local.INFO: estimate time2024-05-29 17:56:00  
+[2024-05-29 17:25:47] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:25:47] local.INFO: upcoming token number in loop9  
+[2024-05-29 17:25:47] local.INFO: estimate time2024-05-29 18:06:00  
+[2024-05-29 17:25:47] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:25:47] local.INFO: upcoming token number in loop10  
+[2024-05-29 17:25:47] local.INFO: estimate time2024-05-29 18:16:00  
+[2024-05-29 17:25:47] local.INFO:  break exists  
+[2024-05-29 17:25:47] local.INFO: break_start_time18:00  
+[2024-05-29 17:25:47] local.INFO: token number after break is 4  
+[2024-05-29 17:25:47] local.INFO: token number after break estimate2024-05-29 17:50:00  
+[2024-05-29 17:25:49] local.INFO: getTokensCheckInCheckOut05:25:49 PM  
+[2024-05-29 17:25:49] local.INFO: getTokensCheckInCheckOut 05:25:49 PM  
+[2024-05-29 17:25:49] local.INFO: getTokensCheckInCheckOut05:25:49 PM  
+[2024-05-29 17:25:49] local.INFO: getTokensCheckInCheckOut 05:25:49 PM  
+[2024-05-29 17:25:49] local.INFO: req type  if chkin  0  
+[2024-05-29 17:25:49] local.INFO: req type  if checkout  1  
+[2024-05-29 17:26:10] local.INFO: getTokensCheckInCheckOut05:26:10 PM  
+[2024-05-29 17:26:10] local.INFO: getTokensCheckInCheckOut 05:26:10 PM  
+[2024-05-29 17:26:10] local.INFO: getTokensCheckInCheckOut05:26:10 PM  
+[2024-05-29 17:26:10] local.INFO: getTokensCheckInCheckOut 05:26:10 PM  
+[2024-05-29 17:26:10] local.INFO: req type  if chkin  1  
+[2024-05-29 17:26:10] local.INFO: req type  if checkout  0  
+[2024-05-29 17:26:12] local.INFO: current token number for checkin is: 4  
+[2024-05-29 17:26:12] local.INFO: permanent checkin time 2024-05-29 18:10:00  
+[2024-05-29 17:26:12] local.INFO: permanent checkin time is greater than the current checkin time   
+[2024-05-29 17:26:12] local.INFO: checkin difference is 43  
+[2024-05-29 17:26:12] local.INFO: estimated_time_of_next_patient after adding token duration: 2024-05-29 18:20:00  
+[2024-05-29 17:26:12] local.INFO: estimated_time_of_next_patient after substarcting 20 mins: 2024-05-29 18:00:00  
+[2024-05-29 17:26:12] local.INFO: estimated_time_of_next_patient after substarcting checkin difference: 2024-05-29 17:17:00  
+[2024-05-29 17:26:12] local.INFO: next token exists -> next token number is 5  
+[2024-05-29 17:26:12] local.INFO: next token exists -> next token estimate time 2024-05-29 17:17:00  
+[2024-05-29 17:26:12] local.INFO: each token duration of upcoming tokens10  
+[2024-05-29 17:26:12] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:26:12] local.INFO: upcoming token number in loop6  
+[2024-05-29 17:26:12] local.INFO: estimate time2024-05-29 17:27:00  
+[2024-05-29 17:26:12] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:26:12] local.INFO: upcoming token number in loop7  
+[2024-05-29 17:26:12] local.INFO: estimate time2024-05-29 17:37:00  
+[2024-05-29 17:26:12] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:26:12] local.INFO: upcoming token number in loop8  
+[2024-05-29 17:26:12] local.INFO: estimate time2024-05-29 17:47:00  
+[2024-05-29 17:26:12] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:26:12] local.INFO: upcoming token number in loop9  
+[2024-05-29 17:26:12] local.INFO: estimate time2024-05-29 17:57:00  
+[2024-05-29 17:26:12] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:26:12] local.INFO: upcoming token number in loop10  
+[2024-05-29 17:26:12] local.INFO: estimate time2024-05-29 18:07:00  
+[2024-05-29 17:26:12] local.INFO:  break exists  
+[2024-05-29 17:26:12] local.INFO: break_start_time18:00  
+[2024-05-29 17:26:12] local.INFO: token number after break is 5  
+[2024-05-29 17:26:12] local.INFO: token number after break estimate2024-05-29 17:50:00  
+[2024-05-29 17:27:06] local.INFO: ADD test details api called on 05:27:06 PM  
+[2024-05-29 17:27:08] local.INFO: getTokensCheckInCheckOut05:27:08 PM  
+[2024-05-29 17:27:08] local.INFO: getTokensCheckInCheckOut 05:27:08 PM  
+[2024-05-29 17:27:08] local.INFO: getTokensCheckInCheckOut05:27:08 PM  
+[2024-05-29 17:27:08] local.INFO: getTokensCheckInCheckOut 05:27:08 PM  
+[2024-05-29 17:27:08] local.INFO: req type  if chkin  0  
+[2024-05-29 17:27:08] local.INFO: req type  if checkout  1  
+[2024-05-29 17:27:09] local.INFO: getTokensCheckInCheckOut05:27:09 PM  
+[2024-05-29 17:27:09] local.INFO: getTokensCheckInCheckOut 05:27:09 PM  
+[2024-05-29 17:27:09] local.INFO: getTokensCheckInCheckOut05:27:09 PM  
+[2024-05-29 17:27:09] local.INFO: getTokensCheckInCheckOut 05:27:09 PM  
+[2024-05-29 17:27:09] local.INFO: req type  if chkin  1  
+[2024-05-29 17:27:09] local.INFO: req type  if checkout  0  
+[2024-05-29 17:27:11] local.INFO: current token number for checkin is: 5  
+[2024-05-29 17:27:11] local.INFO: permanent checkin time 2024-05-29 18:20:00  
+[2024-05-29 17:27:11] local.INFO: permanent checkin time is greater than the current checkin time   
+[2024-05-29 17:27:11] local.INFO: checkin difference is 52  
+[2024-05-29 17:27:11] local.INFO: estimated_time_of_next_patient after adding token duration: 2024-05-29 18:30:00  
+[2024-05-29 17:27:11] local.INFO: estimated_time_of_next_patient after substarcting 20 mins: 2024-05-29 18:10:00  
+[2024-05-29 17:27:11] local.INFO: estimated_time_of_next_patient after substarcting checkin difference: 2024-05-29 17:18:00  
+[2024-05-29 17:27:11] local.INFO: next token exists -> next token number is 6  
+[2024-05-29 17:27:11] local.INFO: next token exists -> next token estimate time 2024-05-29 17:18:00  
+[2024-05-29 17:27:11] local.INFO: each token duration of upcoming tokens10  
+[2024-05-29 17:27:11] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:27:11] local.INFO: upcoming token number in loop7  
+[2024-05-29 17:27:11] local.INFO: estimate time2024-05-29 17:28:00  
+[2024-05-29 17:27:11] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:27:11] local.INFO: upcoming token number in loop8  
+[2024-05-29 17:27:11] local.INFO: estimate time2024-05-29 17:38:00  
+[2024-05-29 17:27:11] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:27:11] local.INFO: upcoming token number in loop9  
+[2024-05-29 17:27:11] local.INFO: estimate time2024-05-29 17:48:00  
+[2024-05-29 17:27:11] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:27:11] local.INFO: upcoming token number in loop10  
+[2024-05-29 17:27:11] local.INFO: estimate time2024-05-29 17:58:00  
+[2024-05-29 17:27:11] local.INFO:  break exists  
+[2024-05-29 17:27:11] local.INFO: break_start_time18:00  
+[2024-05-29 17:27:11] local.INFO: token number after break is 6  
+[2024-05-29 17:27:11] local.INFO: token number after break estimate2024-05-29 17:50:00  
+[2024-05-29 17:31:16] local.INFO: Token Time:   
+[2024-05-29 17:31:16] local.INFO: Token Time:   
+[2024-05-29 17:31:16] local.INFO: Token Time:   
+[2024-05-29 17:31:16] local.INFO: Token Time:   
+[2024-05-29 17:31:16] local.INFO: Token Time:   
+[2024-05-29 17:33:11] local.INFO: Token Time:   
+[2024-05-29 17:33:11] local.INFO: Token Time:   
+[2024-05-29 17:33:11] local.INFO: Token Time:   
+[2024-05-29 17:33:11] local.INFO: Token Time:   
+[2024-05-29 17:33:11] local.INFO: Token Time:   
+[2024-05-29 17:33:45] local.INFO: Token Time:   
+[2024-05-29 17:33:45] local.INFO: Token Time:   
+[2024-05-29 17:33:45] local.INFO: Token Time:   
+[2024-05-29 17:33:45] local.INFO: Token Time:   
+[2024-05-29 17:33:45] local.INFO: Token Time:   
+[2024-05-29 17:33:47] local.INFO: Token Time:   
+[2024-05-29 17:33:47] local.INFO: Token Time:   
+[2024-05-29 17:33:47] local.INFO: Token Time:   
+[2024-05-29 17:33:47] local.INFO: Token Time:   
+[2024-05-29 17:33:47] local.INFO: Token Time:   
+[2024-05-29 17:38:01] local.INFO: getTokensCheckInCheckOut05:38:01 PM  
+[2024-05-29 17:38:01] local.INFO: getTokensCheckInCheckOut 05:38:01 PM  
+[2024-05-29 17:38:01] local.INFO: getTokensCheckInCheckOut05:38:01 PM  
+[2024-05-29 17:38:01] local.INFO: getTokensCheckInCheckOut 05:38:01 PM  
+[2024-05-29 17:38:01] local.INFO: req type  if chkin  0  
+[2024-05-29 17:38:01] local.INFO: req type  if checkout  1  
+[2024-05-29 17:38:02] local.INFO: getTokensCheckInCheckOut05:38:02 PM  
+[2024-05-29 17:38:02] local.INFO: getTokensCheckInCheckOut 05:38:02 PM  
+[2024-05-29 17:38:02] local.INFO: getTokensCheckInCheckOut05:38:02 PM  
+[2024-05-29 17:38:02] local.INFO: getTokensCheckInCheckOut 05:38:02 PM  
+[2024-05-29 17:38:02] local.INFO: req type  if chkin  0  
+[2024-05-29 17:38:02] local.INFO: req type  if checkout  1  
+[2024-05-29 17:38:02] local.INFO: getTokensCheckInCheckOut05:38:02 PM  
+[2024-05-29 17:38:02] local.INFO: getTokensCheckInCheckOut 05:38:02 PM  
+[2024-05-29 17:38:02] local.INFO: getTokensCheckInCheckOut05:38:02 PM  
+[2024-05-29 17:38:02] local.INFO: getTokensCheckInCheckOut 05:38:02 PM  
+[2024-05-29 17:38:02] local.INFO: req type  if chkin  0  
+[2024-05-29 17:38:02] local.INFO: req type  if checkout  1  
+[2024-05-29 17:38:03] local.INFO: getTokensCheckInCheckOut05:38:03 PM  
+[2024-05-29 17:38:03] local.INFO: getTokensCheckInCheckOut 05:38:03 PM  
+[2024-05-29 17:38:03] local.INFO: getTokensCheckInCheckOut05:38:03 PM  
+[2024-05-29 17:38:03] local.INFO: getTokensCheckInCheckOut 05:38:03 PM  
+[2024-05-29 17:38:03] local.INFO: req type  if chkin  0  
+[2024-05-29 17:38:03] local.INFO: req type  if checkout  1  
+[2024-05-29 17:38:04] local.INFO: getTokensCheckInCheckOut05:38:04 PM  
+[2024-05-29 17:38:04] local.INFO: getTokensCheckInCheckOut 05:38:04 PM  
+[2024-05-29 17:38:04] local.INFO: getTokensCheckInCheckOut05:38:04 PM  
+[2024-05-29 17:38:04] local.INFO: getTokensCheckInCheckOut 05:38:04 PM  
+[2024-05-29 17:38:04] local.INFO: req type  if chkin  0  
+[2024-05-29 17:38:04] local.INFO: req type  if checkout  1  
+[2024-05-29 17:38:04] local.INFO: getTokensCheckInCheckOut05:38:04 PM  
+[2024-05-29 17:38:04] local.INFO: getTokensCheckInCheckOut 05:38:04 PM  
+[2024-05-29 17:38:04] local.INFO: getTokensCheckInCheckOut05:38:04 PM  
+[2024-05-29 17:38:04] local.INFO: getTokensCheckInCheckOut 05:38:04 PM  
+[2024-05-29 17:38:04] local.INFO: req type  if chkin  0  
+[2024-05-29 17:38:04] local.INFO: req type  if checkout  1  
+[2024-05-29 17:38:05] local.INFO: getTokensCheckInCheckOut05:38:05 PM  
+[2024-05-29 17:38:05] local.INFO: getTokensCheckInCheckOut 05:38:05 PM  
+[2024-05-29 17:38:05] local.INFO: getTokensCheckInCheckOut05:38:05 PM  
+[2024-05-29 17:38:05] local.INFO: getTokensCheckInCheckOut 05:38:05 PM  
+[2024-05-29 17:38:05] local.INFO: req type  if chkin  0  
+[2024-05-29 17:38:05] local.INFO: req type  if checkout  1  
+[2024-05-29 17:39:33] local.INFO: Token Time: 2024-05-30 17:30:00  
+[2024-05-29 17:39:33] local.INFO: Token Time:   
+[2024-05-29 17:39:49] local.INFO: Token Time: 2024-05-30 17:30:00  
+[2024-05-29 17:39:49] local.INFO: Token Time:   
+[2024-05-29 17:40:02] local.INFO: Token Time: 2024-05-30 17:30:00  
+[2024-05-29 17:40:02] local.INFO: Token Time:   
+[2024-05-29 17:40:20] local.INFO: Token Time:   
+[2024-05-29 17:40:20] local.INFO: Token Time:   
+[2024-05-29 17:40:20] local.INFO: Token Time:   
+[2024-05-29 17:40:20] local.INFO: Token Time:   
+[2024-05-29 17:40:20] local.INFO: Token Time:   
+[2024-05-29 17:40:33] local.INFO: Token Time: 2024-05-30 17:30:00  
+[2024-05-29 17:40:33] local.INFO: Token Time:   
+[2024-05-29 17:41:48] local.INFO: Token Time: 2024-05-30 17:30:00  
+[2024-05-29 17:41:48] local.INFO: Token Time:   
+[2024-05-29 17:42:04] local.INFO: Token Time: 2024-05-30 17:30:00  
+[2024-05-29 17:42:04] local.INFO: Token Time:   
+[2024-05-29 17:45:23] local.INFO: getTokensCheckInCheckOut05:45:23 PM  
+[2024-05-29 17:45:23] local.INFO: getTokensCheckInCheckOut 05:45:23 PM  
+[2024-05-29 17:45:23] local.INFO: getTokensCheckInCheckOut05:45:23 PM  
+[2024-05-29 17:45:23] local.INFO: getTokensCheckInCheckOut 05:45:23 PM  
+[2024-05-29 17:45:23] local.INFO: req type  if chkin  1  
+[2024-05-29 17:45:23] local.INFO: req type  if checkout  0  
+[2024-05-29 17:45:25] local.INFO: current token number for checkin is: 1  
+[2024-05-29 17:45:25] local.INFO: permanent checkin time 2024-05-29 17:50:00  
+[2024-05-29 17:45:25] local.INFO: permanent checkin time is greater than the current checkin time   
+[2024-05-29 17:45:25] local.INFO: checkin difference is 4  
+[2024-05-29 17:45:25] local.INFO: estimated_time_of_next_patient after adding token duration: 2024-05-29 18:00:00  
+[2024-05-29 17:45:25] local.INFO: estimated_time_of_next_patient after substarcting 20 mins: 2024-05-29 17:40:00  
+[2024-05-29 17:45:25] local.INFO: estimated_time_of_next_patient after substarcting checkin difference: 2024-05-29 17:36:00  
+[2024-05-29 17:45:25] local.INFO: next token exists -> next token number is 2  
+[2024-05-29 17:45:25] local.INFO: next token exists -> next token estimate time 2024-05-29 17:36:00  
+[2024-05-29 17:45:25] local.INFO: each token duration of upcoming tokens10  
+[2024-05-29 17:45:25] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:45:25] local.INFO: upcoming token number in loop3  
+[2024-05-29 17:45:25] local.INFO: estimate time2024-05-29 17:46:00  
+[2024-05-29 17:45:25] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:45:25] local.INFO: upcoming token number in loop4  
+[2024-05-29 17:45:25] local.INFO: estimate time2024-05-29 17:56:00  
+[2024-05-29 17:45:25] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:45:25] local.INFO: upcoming token number in loop5  
+[2024-05-29 17:45:25] local.INFO: estimate time2024-05-29 18:06:00  
+[2024-05-29 17:45:25] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:45:25] local.INFO: upcoming token number in loop6  
+[2024-05-29 17:45:25] local.INFO: estimate time2024-05-29 18:16:00  
+[2024-05-29 17:45:25] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:45:25] local.INFO: upcoming token number in loop7  
+[2024-05-29 17:45:25] local.INFO: estimate time2024-05-29 18:26:00  
+[2024-05-29 17:45:25] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:45:25] local.INFO: upcoming token number in loop8  
+[2024-05-29 17:45:25] local.INFO: estimate time2024-05-29 18:36:00  
+[2024-05-29 17:45:25] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:45:25] local.INFO: upcoming token number in loop9  
+[2024-05-29 17:45:25] local.INFO: estimate time2024-05-29 18:46:00  
+[2024-05-29 17:45:25] local.INFO:  break exists  
+[2024-05-29 17:46:11] local.INFO: ADD test details api called on 05:46:11 PM  
+[2024-05-29 17:46:13] local.INFO: getTokensCheckInCheckOut05:46:13 PM  
+[2024-05-29 17:46:13] local.INFO: getTokensCheckInCheckOut 05:46:13 PM  
+[2024-05-29 17:46:13] local.INFO: getTokensCheckInCheckOut05:46:13 PM  
+[2024-05-29 17:46:13] local.INFO: getTokensCheckInCheckOut 05:46:13 PM  
+[2024-05-29 17:46:13] local.INFO: req type  if chkin  0  
+[2024-05-29 17:46:13] local.INFO: req type  if checkout  1  
+[2024-05-29 17:46:24] local.INFO: getTokensCheckInCheckOut05:46:24 PM  
+[2024-05-29 17:46:24] local.INFO: getTokensCheckInCheckOut 05:46:24 PM  
+[2024-05-29 17:46:24] local.INFO: getTokensCheckInCheckOut05:46:24 PM  
+[2024-05-29 17:46:24] local.INFO: getTokensCheckInCheckOut 05:46:24 PM  
+[2024-05-29 17:46:24] local.INFO: req type  if chkin  1  
+[2024-05-29 17:46:24] local.INFO: req type  if checkout  0  
+[2024-05-29 17:46:26] local.INFO: current token number for checkin is: 2  
+[2024-05-29 17:46:26] local.INFO: permanent checkin time 2024-05-29 18:00:00  
+[2024-05-29 17:46:26] local.INFO: permanent checkin time is greater than the current checkin time   
+[2024-05-29 17:46:26] local.INFO: checkin difference is 13  
+[2024-05-29 17:46:26] local.INFO: estimated_time_of_next_patient after adding token duration: 2024-05-29 18:10:00  
+[2024-05-29 17:46:26] local.INFO: estimated_time_of_next_patient after substarcting 20 mins: 2024-05-29 17:50:00  
+[2024-05-29 17:46:26] local.INFO: estimated_time_of_next_patient after substarcting checkin difference: 2024-05-29 17:37:00  
+[2024-05-29 17:46:26] local.INFO: next token exists -> next token number is 3  
+[2024-05-29 17:46:26] local.INFO: next token exists -> next token estimate time 2024-05-29 17:37:00  
+[2024-05-29 17:46:26] local.INFO: each token duration of upcoming tokens10  
+[2024-05-29 17:46:26] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:46:26] local.INFO: upcoming token number in loop4  
+[2024-05-29 17:46:26] local.INFO: estimate time2024-05-29 17:47:00  
+[2024-05-29 17:46:26] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:46:26] local.INFO: upcoming token number in loop5  
+[2024-05-29 17:46:26] local.INFO: estimate time2024-05-29 17:57:00  
+[2024-05-29 17:46:26] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:46:26] local.INFO: upcoming token number in loop6  
+[2024-05-29 17:46:26] local.INFO: estimate time2024-05-29 18:07:00  
+[2024-05-29 17:46:26] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:46:26] local.INFO: upcoming token number in loop7  
+[2024-05-29 17:46:26] local.INFO: estimate time2024-05-29 18:17:00  
+[2024-05-29 17:46:26] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:46:26] local.INFO: upcoming token number in loop8  
+[2024-05-29 17:46:26] local.INFO: estimate time2024-05-29 18:27:00  
+[2024-05-29 17:46:26] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:46:26] local.INFO: upcoming token number in loop9  
+[2024-05-29 17:46:26] local.INFO: estimate time2024-05-29 18:37:00  
+[2024-05-29 17:46:26] local.INFO:  break exists  
+[2024-05-29 17:46:34] local.INFO: ADD test details api called on 05:46:34 PM  
+[2024-05-29 17:47:19] local.INFO: ADD test details api called on 05:47:19 PM  
+[2024-05-29 17:47:21] local.INFO: getTokensCheckInCheckOut05:47:21 PM  
+[2024-05-29 17:47:21] local.INFO: getTokensCheckInCheckOut 05:47:21 PM  
+[2024-05-29 17:47:21] local.INFO: getTokensCheckInCheckOut05:47:21 PM  
+[2024-05-29 17:47:21] local.INFO: getTokensCheckInCheckOut 05:47:21 PM  
+[2024-05-29 17:47:21] local.INFO: req type  if chkin  0  
+[2024-05-29 17:47:21] local.INFO: req type  if checkout  1  
+[2024-05-29 17:47:43] local.INFO: Validation passed  
+[2024-05-29 17:47:43] local.INFO: Checked for existing breaks {"existing_break_check":{"Illuminate\\Database\\Eloquent\\Collection":[]}} 
+[2024-05-29 17:47:43] local.INFO: Saved doctor reschedule data {"doctor_reschedule_data":{"App\\Models\\DoctorReschedule":{"doctor_id":47,"clinic_id":"31","reschedule_type":3,"reschedule_duration":10,"reschedule_start_datetime":"2024-05-29T13:10:00.000000Z","reschedule_end_datetime":"2024-05-29T13:20:00.000000Z","schedule_type":"1","schedule_id":245,"break_start_time":"18:40:00","break_end_time":"18:50:00","updated_at":"2024-05-29T12:17:43.000000Z","created_at":"2024-05-29T12:17:43.000000Z","id":2}}} 
+[2024-05-29 17:47:43] local.INFO: Sent push notification {"response":{"multicast_id":6723767499782219201,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-29 17:47:43] local.INFO: Sent push notification {"response":{"multicast_id":6774401968003180833,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-29 17:47:44] local.INFO: Sent push notification {"response":{"multicast_id":5352235581917079301,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-29 17:47:44] local.INFO: Sent push notification {"response":{"multicast_id":1211668259729382784,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-29 17:47:45] local.INFO: Break process successful  
+[2024-05-29 17:51:12] local.INFO: uniquePatientDetails = {"mediezy_patient_id":"MAA01817"}  
+[2024-05-29 17:51:23] local.INFO: getTokensCheckInCheckOut05:51:23 PM  
+[2024-05-29 17:51:23] local.INFO: getTokensCheckInCheckOut 05:51:23 PM  
+[2024-05-29 17:51:23] local.INFO: getTokensCheckInCheckOut05:51:23 PM  
+[2024-05-29 17:51:23] local.INFO: getTokensCheckInCheckOut 05:51:23 PM  
+[2024-05-29 17:51:23] local.INFO: req type  if chkin  1  
+[2024-05-29 17:51:23] local.INFO: req type  if checkout  0  
+[2024-05-29 17:51:25] local.INFO: current token number for checkin is: 3  
+[2024-05-29 17:51:25] local.INFO: permanent checkin time 2024-05-29 18:10:00  
+[2024-05-29 17:51:25] local.INFO: permanent checkin time is greater than the current checkin time   
+[2024-05-29 17:51:25] local.INFO: checkin difference is 18  
+[2024-05-29 17:51:25] local.INFO: estimated_time_of_next_patient after adding token duration: 2024-05-29 18:20:00  
+[2024-05-29 17:51:25] local.INFO: estimated_time_of_next_patient after substarcting 20 mins: 2024-05-29 18:00:00  
+[2024-05-29 17:51:25] local.INFO: estimated_time_of_next_patient after substarcting checkin difference: 2024-05-29 17:42:00  
+[2024-05-29 17:51:25] local.INFO: next token exists -> next token number is 4  
+[2024-05-29 17:51:25] local.INFO: next token exists -> next token estimate time 2024-05-29 17:42:00  
+[2024-05-29 17:51:25] local.INFO: each token duration of upcoming tokens10  
+[2024-05-29 17:51:25] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:51:25] local.INFO: upcoming token number in loop5  
+[2024-05-29 17:51:25] local.INFO: estimate time2024-05-29 17:52:00  
+[2024-05-29 17:51:25] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:51:25] local.INFO: upcoming token number in loop6  
+[2024-05-29 17:51:25] local.INFO: estimate time2024-05-29 18:02:00  
+[2024-05-29 17:51:25] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:51:25] local.INFO: upcoming token number in loop7  
+[2024-05-29 17:51:25] local.INFO: estimate time2024-05-29 18:12:00  
+[2024-05-29 17:51:25] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:51:25] local.INFO: upcoming token number in loop8  
+[2024-05-29 17:51:25] local.INFO: estimate time2024-05-29 18:22:00  
+[2024-05-29 17:51:25] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:51:25] local.INFO: upcoming token number in loop9  
+[2024-05-29 17:51:25] local.INFO: estimate time2024-05-29 18:32:00  
+[2024-05-29 17:51:25] local.INFO:  break exists  
+[2024-05-29 17:51:25] local.INFO: break_start_time18:40  
+[2024-05-29 17:51:25] local.INFO: token number after break is 6  
+[2024-05-29 17:51:25] local.INFO: token number after break estimate2024-05-29 18:30:00  
+[2024-05-29 17:53:03] local.INFO: ADD test details api called on 05:53:03 PM  
+[2024-05-29 17:53:05] local.INFO: getTokensCheckInCheckOut05:53:05 PM  
+[2024-05-29 17:53:05] local.INFO: getTokensCheckInCheckOut 05:53:05 PM  
+[2024-05-29 17:53:05] local.INFO: getTokensCheckInCheckOut05:53:05 PM  
+[2024-05-29 17:53:05] local.INFO: getTokensCheckInCheckOut 05:53:05 PM  
+[2024-05-29 17:53:05] local.INFO: req type  if chkin  0  
+[2024-05-29 17:53:05] local.INFO: req type  if checkout  1  
+[2024-05-29 17:53:18] local.INFO: getTokensCheckInCheckOut05:53:18 PM  
+[2024-05-29 17:53:18] local.INFO: getTokensCheckInCheckOut 05:53:18 PM  
+[2024-05-29 17:53:18] local.INFO: getTokensCheckInCheckOut05:53:18 PM  
+[2024-05-29 17:53:18] local.INFO: getTokensCheckInCheckOut 05:53:18 PM  
+[2024-05-29 17:53:18] local.INFO: req type  if chkin  1  
+[2024-05-29 17:53:18] local.INFO: req type  if checkout  0  
+[2024-05-29 17:53:20] local.INFO: current token number for checkin is: 6  
+[2024-05-29 17:53:20] local.INFO: permanent checkin time 2024-05-29 18:50:00  
+[2024-05-29 17:53:20] local.INFO: permanent checkin time is greater than the current checkin time   
+[2024-05-29 17:53:20] local.INFO: checkin difference is 56  
+[2024-05-29 17:53:20] local.INFO: estimated_time_of_next_patient after adding token duration: 2024-05-29 19:00:00  
+[2024-05-29 17:53:20] local.INFO: estimated_time_of_next_patient after substarcting 20 mins: 2024-05-29 18:40:00  
+[2024-05-29 17:53:20] local.INFO: estimated_time_of_next_patient after substarcting checkin difference: 2024-05-29 17:44:00  
+[2024-05-29 17:53:20] local.INFO: next token exists -> next token number is 4  
+[2024-05-29 17:53:20] local.INFO: next token exists -> next token estimate time 2024-05-29 17:44:00  
+[2024-05-29 17:53:20] local.INFO: each token duration of upcoming tokens10  
+[2024-05-29 17:53:20] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:53:20] local.INFO: upcoming token number in loop5  
+[2024-05-29 17:53:20] local.INFO: estimate time2024-05-29 17:54:00  
+[2024-05-29 17:53:20] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:53:20] local.INFO: upcoming token number in loop7  
+[2024-05-29 17:53:20] local.INFO: estimate time2024-05-29 18:04:00  
+[2024-05-29 17:53:20] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:53:20] local.INFO: upcoming token number in loop8  
+[2024-05-29 17:53:20] local.INFO: estimate time2024-05-29 18:14:00  
+[2024-05-29 17:53:20] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:53:20] local.INFO: upcoming token number in loop9  
+[2024-05-29 17:53:20] local.INFO: estimate time2024-05-29 18:24:00  
+[2024-05-29 17:53:20] local.INFO:  break exists  
+[2024-05-29 17:53:20] local.INFO: break_start_time18:40  
+[2024-05-29 17:53:20] local.INFO: token number after break is 7  
+[2024-05-29 17:53:20] local.INFO: token number after break estimate2024-05-29 18:30:00  
+[2024-05-29 17:55:01] local.INFO: ADD test details api called on 05:55:01 PM  
+[2024-05-29 17:55:03] local.INFO: getTokensCheckInCheckOut05:55:03 PM  
+[2024-05-29 17:55:03] local.INFO: getTokensCheckInCheckOut 05:55:03 PM  
+[2024-05-29 17:55:03] local.INFO: getTokensCheckInCheckOut05:55:03 PM  
+[2024-05-29 17:55:03] local.INFO: getTokensCheckInCheckOut 05:55:03 PM  
+[2024-05-29 17:55:03] local.INFO: req type  if chkin  0  
+[2024-05-29 17:55:03] local.INFO: req type  if checkout  1  
+[2024-05-29 17:55:08] local.INFO: getTokensCheckInCheckOut05:55:08 PM  
+[2024-05-29 17:55:08] local.INFO: getTokensCheckInCheckOut 05:55:08 PM  
+[2024-05-29 17:55:08] local.INFO: getTokensCheckInCheckOut05:55:08 PM  
+[2024-05-29 17:55:08] local.INFO: getTokensCheckInCheckOut 05:55:08 PM  
+[2024-05-29 17:55:08] local.INFO: req type  if chkin  1  
+[2024-05-29 17:55:08] local.INFO: req type  if checkout  0  
+[2024-05-29 17:55:10] local.INFO: current token number for checkin is: 4  
+[2024-05-29 17:55:10] local.INFO: permanent checkin time 2024-05-29 18:20:00  
+[2024-05-29 17:55:10] local.INFO: permanent checkin time is greater than the current checkin time   
+[2024-05-29 17:55:10] local.INFO: checkin difference is 24  
+[2024-05-29 17:55:10] local.INFO: estimated_time_of_next_patient after adding token duration: 2024-05-29 18:30:00  
+[2024-05-29 17:55:10] local.INFO: estimated_time_of_next_patient after substarcting 20 mins: 2024-05-29 18:10:00  
+[2024-05-29 17:55:10] local.INFO: estimated_time_of_next_patient after substarcting checkin difference: 2024-05-29 17:46:00  
+[2024-05-29 17:55:10] local.INFO: next token exists -> next token number is 5  
+[2024-05-29 17:55:10] local.INFO: next token exists -> next token estimate time 2024-05-29 17:46:00  
+[2024-05-29 17:55:10] local.INFO: each token duration of upcoming tokens10  
+[2024-05-29 17:55:10] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:55:10] local.INFO: upcoming token number in loop7  
+[2024-05-29 17:55:10] local.INFO: estimate time2024-05-29 17:56:00  
+[2024-05-29 17:55:10] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:55:10] local.INFO: upcoming token number in loop8  
+[2024-05-29 17:55:10] local.INFO: estimate time2024-05-29 18:06:00  
+[2024-05-29 17:55:10] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:55:10] local.INFO: upcoming token number in loop9  
+[2024-05-29 17:55:10] local.INFO: estimate time2024-05-29 18:16:00  
+[2024-05-29 17:55:10] local.INFO:  break exists  
+[2024-05-29 17:55:10] local.INFO: break_start_time18:40  
+[2024-05-29 17:55:10] local.INFO: token number after break is 7  
+[2024-05-29 17:55:10] local.INFO: token number after break estimate2024-05-29 18:30:00  
+[2024-05-29 17:55:16] local.INFO: ADD test details api called on 05:55:16 PM  
+[2024-05-29 17:55:18] local.INFO: getTokensCheckInCheckOut05:55:18 PM  
+[2024-05-29 17:55:18] local.INFO: getTokensCheckInCheckOut 05:55:18 PM  
+[2024-05-29 17:55:18] local.INFO: getTokensCheckInCheckOut05:55:18 PM  
+[2024-05-29 17:55:18] local.INFO: getTokensCheckInCheckOut 05:55:18 PM  
+[2024-05-29 17:55:18] local.INFO: req type  if chkin  0  
+[2024-05-29 17:55:18] local.INFO: req type  if checkout  1  
+[2024-05-29 17:55:20] local.INFO: getTokensCheckInCheckOut05:55:20 PM  
+[2024-05-29 17:55:20] local.INFO: getTokensCheckInCheckOut 05:55:20 PM  
+[2024-05-29 17:55:20] local.INFO: getTokensCheckInCheckOut05:55:20 PM  
+[2024-05-29 17:55:20] local.INFO: getTokensCheckInCheckOut 05:55:20 PM  
+[2024-05-29 17:55:20] local.INFO: req type  if chkin  1  
+[2024-05-29 17:55:20] local.INFO: req type  if checkout  0  
+[2024-05-29 17:55:22] local.INFO: current token number for checkin is: 5  
+[2024-05-29 17:55:22] local.INFO: permanent checkin time 2024-05-29 18:30:00  
+[2024-05-29 17:55:22] local.INFO: permanent checkin time is greater than the current checkin time   
+[2024-05-29 17:55:22] local.INFO: checkin difference is 34  
+[2024-05-29 17:55:22] local.INFO: estimated_time_of_next_patient after adding token duration: 2024-05-29 18:40:00  
+[2024-05-29 17:55:22] local.INFO: estimated_time_of_next_patient after substarcting 20 mins: 2024-05-29 18:20:00  
+[2024-05-29 17:55:22] local.INFO: estimated_time_of_next_patient after substarcting checkin difference: 2024-05-29 17:46:00  
+[2024-05-29 17:55:22] local.INFO: next token exists -> next token number is 7  
+[2024-05-29 17:55:22] local.INFO: next token exists -> next token estimate time 2024-05-29 17:46:00  
+[2024-05-29 17:55:22] local.INFO: each token duration of upcoming tokens10  
+[2024-05-29 17:55:22] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:55:22] local.INFO: upcoming token number in loop8  
+[2024-05-29 17:55:22] local.INFO: estimate time2024-05-29 17:56:00  
+[2024-05-29 17:55:22] local.INFO: Upcoming tokens loop started  
+[2024-05-29 17:55:22] local.INFO: upcoming token number in loop9  
+[2024-05-29 17:55:22] local.INFO: estimate time2024-05-29 18:06:00  
+[2024-05-29 17:55:22] local.INFO:  break exists  
+[2024-05-29 17:55:22] local.INFO: break_start_time18:40  
+[2024-05-29 17:55:22] local.INFO: token number after break is 7  
+[2024-05-29 17:55:22] local.INFO: token number after break estimate2024-05-29 18:30:00  
+[2024-05-29 17:59:49] local.INFO: getTokensCheckInCheckOut05:59:49 PM  
+[2024-05-29 17:59:49] local.INFO: getTokensCheckInCheckOut 05:59:49 PM  
+[2024-05-29 17:59:49] local.INFO: getTokensCheckInCheckOut05:59:49 PM  
+[2024-05-29 17:59:49] local.INFO: getTokensCheckInCheckOut 05:59:49 PM  
+[2024-05-29 17:59:49] local.INFO: req type  if chkin  1  
+[2024-05-29 17:59:49] local.INFO: req type  if checkout  0  
+[2024-05-29 18:00:43] local.INFO: Inserting into medicine_history {"medicine_id":"1","doctor_id":"1045"} 
+[2024-05-29 18:01:29] local.INFO: getTokensCheckInCheckOut06:01:29 PM  
+[2024-05-29 18:01:29] local.INFO: getTokensCheckInCheckOut 06:01:29 PM  
+[2024-05-29 18:01:29] local.INFO: getTokensCheckInCheckOut06:01:29 PM  
+[2024-05-29 18:01:29] local.INFO: getTokensCheckInCheckOut 06:01:29 PM  
+[2024-05-29 18:01:29] local.INFO: req type  if chkin  0  
+[2024-05-29 18:01:29] local.INFO: req type  if checkout  1  
+[2024-05-29 18:01:30] local.INFO: ADD test details api called on 06:01:30 PM  
+[2024-05-29 18:02:31] local.INFO: Token Time:   
+[2024-05-29 18:02:31] local.INFO: Token Time:   
+[2024-05-29 18:02:31] local.INFO: Token Time:   
+[2024-05-29 18:02:31] local.INFO: Token Time:   
+[2024-05-29 18:02:31] local.INFO: Token Time:   
+[2024-05-29 18:04:06] local.INFO: Token Time:   
+[2024-05-29 18:04:06] local.INFO: Token Time:   
+[2024-05-29 18:04:06] local.INFO: Token Time:   
+[2024-05-29 18:04:06] local.INFO: Token Time:   
+[2024-05-29 18:04:06] local.INFO: Token Time:   
+[2024-05-29 18:04:17] local.INFO: uniquePatientDetails = {"mediezy_patient_id":"MAA01818"}  
+[2024-05-29 18:04:35] local.INFO: Token Time:   
+[2024-05-29 18:04:35] local.INFO: Token Time:   
+[2024-05-29 18:04:35] local.INFO: Token Time:   
+[2024-05-29 18:04:35] local.INFO: Token Time:   
+[2024-05-29 18:04:35] local.INFO: Token Time:   
+[2024-05-29 18:04:50] local.INFO: Token Time:   
+[2024-05-29 18:04:50] local.INFO: Token Time:   
+[2024-05-29 18:04:50] local.INFO: Token Time:   
+[2024-05-29 18:04:50] local.INFO: Token Time:   
+[2024-05-29 18:04:50] local.INFO: Token Time:   
+[2024-05-29 18:05:02] local.INFO: uniquePatientDetails = {"mediezy_patient_id":"MAA01819"}  
+[2024-05-29 18:07:24] local.INFO: uniquePatientDetails = {"mediezy_patient_id":"MAA01820"}  
+[2024-05-29 20:10:08] local.INFO: ADD test details api called on 08:10:08 PM  
+[2024-05-29 20:10:10] local.INFO: getTokensCheckInCheckOut08:10:10 PM  
+[2024-05-29 20:10:10] local.INFO: getTokensCheckInCheckOut 08:10:10 PM  
+[2024-05-29 20:10:10] local.INFO: getTokensCheckInCheckOut08:10:10 PM  
+[2024-05-29 20:10:10] local.INFO: getTokensCheckInCheckOut 08:10:10 PM  
+[2024-05-29 20:10:10] local.INFO: req type  if chkin  0  
+[2024-05-29 20:10:10] local.INFO: req type  if checkout  1  
+[2024-05-29 20:10:14] local.INFO: getTokensCheckInCheckOut08:10:14 PM  
+[2024-05-29 20:10:14] local.INFO: getTokensCheckInCheckOut 08:10:14 PM  
+[2024-05-29 20:10:14] local.INFO: getTokensCheckInCheckOut08:10:14 PM  
+[2024-05-29 20:10:14] local.INFO: getTokensCheckInCheckOut 08:10:14 PM  
+[2024-05-29 20:10:14] local.INFO: req type  if chkin  1  
+[2024-05-29 20:10:14] local.INFO: req type  if checkout  0  
+[2024-05-29 20:10:15] local.INFO: ADD test details api called on 08:10:15 PM  
+[2024-05-29 20:10:16] local.INFO: current token number for checkin is: 7  
+[2024-05-29 20:10:16] local.INFO: permanent checkin time 2024-05-29 19:00:00  
+[2024-05-29 20:10:16] local.INFO: permanent checkin time is less than the current checkin time   
+[2024-05-29 20:10:16] local.INFO: checkin difference is 70  
+[2024-05-29 20:10:16] local.INFO: estimated_time_of_next_patient after adding token duration: 2024-05-29 19:10:00  
+[2024-05-29 20:10:16] local.INFO: estimated_time_of_next_patient after substarcting 20 mins: 2024-05-29 18:50:00  
+[2024-05-29 20:10:16] local.INFO: estimated_time_of_next_patient after substarcting checkin difference: 2024-05-29 20:00:00  
+[2024-05-29 20:10:16] local.INFO: next token exists -> next token number is 8  
+[2024-05-29 20:10:16] local.INFO: next token exists -> next token estimate time 2024-05-29 20:00:00  
+[2024-05-29 20:10:16] local.INFO: each token duration of upcoming tokens10  
+[2024-05-29 20:10:16] local.INFO: Upcoming tokens loop started  
+[2024-05-29 20:10:16] local.INFO: upcoming token number in loop9  
+[2024-05-29 20:10:16] local.INFO: estimate time2024-05-29 20:10:00  
+[2024-05-29 20:10:16] local.INFO:  break exists  
+[2024-05-29 20:10:17] local.INFO: getTokensCheckInCheckOut08:10:17 PM  
+[2024-05-29 20:10:17] local.INFO: getTokensCheckInCheckOut 08:10:17 PM  
+[2024-05-29 20:10:17] local.INFO: getTokensCheckInCheckOut08:10:17 PM  
+[2024-05-29 20:10:17] local.INFO: getTokensCheckInCheckOut 08:10:17 PM  
+[2024-05-29 20:10:17] local.INFO: req type  if chkin  0  
+[2024-05-29 20:10:17] local.INFO: req type  if checkout  1  
+[2024-05-29 20:10:19] local.INFO: ADD test details api called on 08:10:19 PM  
+[2024-05-29 20:10:19] local.INFO: ADD test details api called on 08:10:19 PM  
+[2024-05-29 20:10:19] local.INFO: ADD test details api called on 08:10:19 PM  
+[2024-05-29 20:10:20] local.INFO: ADD test details api called on 08:10:20 PM  
+[2024-05-29 20:10:21] local.INFO: getTokensCheckInCheckOut08:10:21 PM  
+[2024-05-29 20:10:21] local.INFO: getTokensCheckInCheckOut 08:10:21 PM  
+[2024-05-29 20:10:21] local.INFO: getTokensCheckInCheckOut08:10:21 PM  
+[2024-05-29 20:10:21] local.INFO: getTokensCheckInCheckOut 08:10:21 PM  
+[2024-05-29 20:10:21] local.INFO: req type  if chkin  0  
+[2024-05-29 20:10:21] local.INFO: req type  if checkout  1  
+[2024-05-29 20:10:21] local.INFO: getTokensCheckInCheckOut08:10:21 PM  
+[2024-05-29 20:10:21] local.INFO: getTokensCheckInCheckOut 08:10:21 PM  
+[2024-05-29 20:10:21] local.INFO: getTokensCheckInCheckOut08:10:21 PM  
+[2024-05-29 20:10:21] local.INFO: getTokensCheckInCheckOut 08:10:21 PM  
+[2024-05-29 20:10:21] local.INFO: req type  if chkin  0  
+[2024-05-29 20:10:21] local.INFO: req type  if checkout  1  
+[2024-05-29 20:10:22] local.INFO: getTokensCheckInCheckOut08:10:22 PM  
+[2024-05-29 20:10:22] local.INFO: getTokensCheckInCheckOut 08:10:22 PM  
+[2024-05-29 20:10:22] local.INFO: getTokensCheckInCheckOut08:10:22 PM  
+[2024-05-29 20:10:22] local.INFO: getTokensCheckInCheckOut 08:10:22 PM  
+[2024-05-29 20:10:23] local.INFO: req type  if chkin  0  
+[2024-05-29 20:10:23] local.INFO: req type  if checkout  1  
+[2024-05-29 20:10:54] local.INFO: Token Time: 2024-05-30 20:20:00  
+[2024-05-29 20:10:54] local.INFO: Token Time:   
+[2024-05-29 20:11:56] local.INFO: getTokensCheckInCheckOut08:11:56 PM  
+[2024-05-29 20:11:56] local.INFO: getTokensCheckInCheckOut 08:11:56 PM  
+[2024-05-29 20:11:56] local.INFO: getTokensCheckInCheckOut08:11:56 PM  
+[2024-05-29 20:11:56] local.INFO: getTokensCheckInCheckOut 08:11:56 PM  
+[2024-05-29 20:11:56] local.INFO: req type  if chkin  1  
+[2024-05-29 20:11:56] local.INFO: req type  if checkout  0  
+[2024-05-29 20:11:58] local.INFO: current token number for checkin is: 1  
+[2024-05-29 20:11:58] local.INFO: permanent checkin time 2024-05-29 20:20:00  
+[2024-05-29 20:11:58] local.INFO: permanent checkin time is greater than the current checkin time   
+[2024-05-29 20:11:58] local.INFO: checkin difference is 8  
+[2024-05-29 20:11:58] local.INFO: estimated_time_of_next_patient after adding token duration: 2024-05-29 20:30:00  
+[2024-05-29 20:11:58] local.INFO: estimated_time_of_next_patient after substarcting 20 mins: 2024-05-29 20:10:00  
+[2024-05-29 20:11:58] local.INFO: estimated_time_of_next_patient after substarcting checkin difference: 2024-05-29 20:02:00  
+[2024-05-29 20:11:58] local.INFO: next token exists -> next token number is 2  
+[2024-05-29 20:11:58] local.INFO: next token exists -> next token estimate time 2024-05-29 20:02:00  
+[2024-05-29 20:11:58] local.INFO: each token duration of upcoming tokens10  
+[2024-05-29 20:11:58] local.INFO: Upcoming tokens loop started  
+[2024-05-29 20:11:58] local.INFO: upcoming token number in loop3  
+[2024-05-29 20:11:58] local.INFO: estimate time2024-05-29 20:12:00  
+[2024-05-29 20:11:58] local.INFO: Upcoming tokens loop started  
+[2024-05-29 20:11:58] local.INFO: upcoming token number in loop4  
+[2024-05-29 20:11:58] local.INFO: estimate time2024-05-29 20:22:00  
+[2024-05-29 20:11:58] local.INFO: Upcoming tokens loop started  
+[2024-05-29 20:11:58] local.INFO: upcoming token number in loop5  
+[2024-05-29 20:11:58] local.INFO: estimate time2024-05-29 20:32:00  
+[2024-05-29 20:11:58] local.INFO: Upcoming tokens loop started  
+[2024-05-29 20:11:58] local.INFO: upcoming token number in loop6  
+[2024-05-29 20:11:58] local.INFO: estimate time2024-05-29 20:42:00  
+[2024-05-29 20:11:58] local.INFO: Upcoming tokens loop started  
+[2024-05-29 20:11:58] local.INFO: upcoming token number in loop7  
+[2024-05-29 20:11:58] local.INFO: estimate time2024-05-29 20:52:00  
+[2024-05-29 20:11:58] local.INFO:  break exists  
+[2024-05-29 20:12:36] local.INFO: Validation passed  
+[2024-05-29 20:12:36] local.INFO: Checked for existing breaks {"existing_break_check":{"Illuminate\\Database\\Eloquent\\Collection":[]}} 
+[2024-05-29 20:12:36] local.INFO: Saved doctor reschedule data {"doctor_reschedule_data":{"App\\Models\\DoctorReschedule":{"doctor_id":47,"clinic_id":"31","reschedule_type":3,"reschedule_duration":10,"reschedule_start_datetime":"2024-05-29T15:20:00.000000Z","reschedule_end_datetime":"2024-05-29T15:30:00.000000Z","schedule_type":"1","schedule_id":249,"break_start_time":"20:50:00","break_end_time":"21:00:00","updated_at":"2024-05-29T14:42:36.000000Z","created_at":"2024-05-29T14:42:36.000000Z","id":1}}} 
+[2024-05-29 20:12:36] local.INFO: Sent push notification {"response":{"multicast_id":2406939236471080089,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-29 20:12:37] local.INFO: Sent push notification {"response":{"multicast_id":5706466504659109808,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-29 20:12:37] local.INFO: Sent push notification {"response":{"multicast_id":9144998598440988915,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-29 20:12:38] local.INFO: Sent push notification {"response":{"multicast_id":5550335307572598151,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-29 20:12:38] local.INFO: Break process successful  
+[2024-05-29 20:12:55] local.INFO: ADD test details api called on 08:12:55 PM  
+[2024-05-29 20:12:57] local.INFO: getTokensCheckInCheckOut08:12:57 PM  
+[2024-05-29 20:12:57] local.INFO: getTokensCheckInCheckOut 08:12:57 PM  
+[2024-05-29 20:12:57] local.INFO: getTokensCheckInCheckOut08:12:57 PM  
+[2024-05-29 20:12:57] local.INFO: getTokensCheckInCheckOut 08:12:57 PM  
+[2024-05-29 20:12:57] local.INFO: req type  if chkin  0  
+[2024-05-29 20:12:57] local.INFO: req type  if checkout  1  
+[2024-05-29 20:13:10] local.INFO: getTokensCheckInCheckOut08:13:10 PM  
+[2024-05-29 20:13:10] local.INFO: getTokensCheckInCheckOut 08:13:10 PM  
+[2024-05-29 20:13:10] local.INFO: getTokensCheckInCheckOut08:13:10 PM  
+[2024-05-29 20:13:10] local.INFO: getTokensCheckInCheckOut 08:13:10 PM  
+[2024-05-29 20:13:10] local.INFO: req type  if chkin  1  
+[2024-05-29 20:13:10] local.INFO: req type  if checkout  0  
+[2024-05-29 20:13:12] local.INFO: current token number for checkin is: 2  
+[2024-05-29 20:13:12] local.INFO: permanent checkin time 2024-05-29 20:30:00  
+[2024-05-29 20:13:12] local.INFO: permanent checkin time is greater than the current checkin time   
+[2024-05-29 20:13:12] local.INFO: checkin difference is 16  
+[2024-05-29 20:13:12] local.INFO: estimated_time_of_next_patient after adding token duration: 2024-05-29 20:40:00  
+[2024-05-29 20:13:12] local.INFO: estimated_time_of_next_patient after substarcting 20 mins: 2024-05-29 20:20:00  
+[2024-05-29 20:13:12] local.INFO: estimated_time_of_next_patient after substarcting checkin difference: 2024-05-29 20:04:00  
+[2024-05-29 20:13:12] local.INFO: next token exists -> next token number is 3  
+[2024-05-29 20:13:12] local.INFO: next token exists -> next token estimate time 2024-05-29 20:04:00  
+[2024-05-29 20:13:12] local.INFO: each token duration of upcoming tokens10  
+[2024-05-29 20:13:12] local.INFO: Upcoming tokens loop started  
+[2024-05-29 20:13:12] local.INFO: upcoming token number in loop4  
+[2024-05-29 20:13:12] local.INFO: estimate time2024-05-29 20:14:00  
+[2024-05-29 20:13:12] local.INFO: Upcoming tokens loop started  
+[2024-05-29 20:13:12] local.INFO: upcoming token number in loop5  
+[2024-05-29 20:13:12] local.INFO: estimate time2024-05-29 20:24:00  
+[2024-05-29 20:13:12] local.INFO: Upcoming tokens loop started  
+[2024-05-29 20:13:12] local.INFO: upcoming token number in loop6  
+[2024-05-29 20:13:12] local.INFO: estimate time2024-05-29 20:34:00  
+[2024-05-29 20:13:12] local.INFO: Upcoming tokens loop started  
+[2024-05-29 20:13:12] local.INFO: upcoming token number in loop7  
+[2024-05-29 20:13:12] local.INFO: estimate time2024-05-29 20:44:00  
+[2024-05-29 20:13:12] local.INFO:  break exists  
+[2024-05-29 20:13:12] local.INFO: break_start_time20:50  
+[2024-05-29 20:13:12] local.INFO: token number after break is 4  
+[2024-05-29 20:13:12] local.INFO: token number after break estimate2024-05-29 20:40:00  
+[2024-05-29 20:13:44] local.INFO: ADD test details api called on 08:13:44 PM  
+[2024-05-29 20:13:46] local.INFO: getTokensCheckInCheckOut08:13:46 PM  
+[2024-05-29 20:13:46] local.INFO: getTokensCheckInCheckOut 08:13:46 PM  
+[2024-05-29 20:13:46] local.INFO: getTokensCheckInCheckOut08:13:46 PM  
+[2024-05-29 20:13:46] local.INFO: getTokensCheckInCheckOut 08:13:46 PM  
+[2024-05-29 20:13:46] local.INFO: req type  if chkin  0  
+[2024-05-29 20:13:46] local.INFO: req type  if checkout  1  
+[2024-05-29 20:13:50] local.INFO: getTokensCheckInCheckOut08:13:50 PM  
+[2024-05-29 20:13:50] local.INFO: getTokensCheckInCheckOut 08:13:50 PM  
+[2024-05-29 20:13:50] local.INFO: getTokensCheckInCheckOut08:13:50 PM  
+[2024-05-29 20:13:50] local.INFO: getTokensCheckInCheckOut 08:13:50 PM  
+[2024-05-29 20:13:50] local.INFO: req type  if chkin  1  
+[2024-05-29 20:13:50] local.INFO: req type  if checkout  0  
+[2024-05-29 20:13:52] local.INFO: current token number for checkin is: 4  
+[2024-05-29 20:13:52] local.INFO: permanent checkin time 2024-05-29 21:00:00  
+[2024-05-29 20:13:52] local.INFO: permanent checkin time is greater than the current checkin time   
+[2024-05-29 20:13:52] local.INFO: checkin difference is 46  
+[2024-05-29 20:13:52] local.INFO: estimated_time_of_next_patient after adding token duration: 2024-05-29 21:10:00  
+[2024-05-29 20:13:52] local.INFO: estimated_time_of_next_patient after substarcting 20 mins: 2024-05-29 20:50:00  
+[2024-05-29 20:13:52] local.INFO: estimated_time_of_next_patient after substarcting checkin difference: 2024-05-29 20:04:00  
+[2024-05-29 20:13:52] local.INFO: next token exists -> next token number is 3  
+[2024-05-29 20:13:52] local.INFO: next token exists -> next token estimate time 2024-05-29 20:04:00  
+[2024-05-29 20:13:52] local.INFO: each token duration of upcoming tokens10  
+[2024-05-29 20:13:52] local.INFO: Upcoming tokens loop started  
+[2024-05-29 20:13:52] local.INFO: upcoming token number in loop5  
+[2024-05-29 20:13:52] local.INFO: estimate time2024-05-29 20:14:00  
+[2024-05-29 20:13:52] local.INFO: Upcoming tokens loop started  
+[2024-05-29 20:13:52] local.INFO: upcoming token number in loop6  
+[2024-05-29 20:13:52] local.INFO: estimate time2024-05-29 20:24:00  
+[2024-05-29 20:13:52] local.INFO: Upcoming tokens loop started  
+[2024-05-29 20:13:52] local.INFO: upcoming token number in loop7  
+[2024-05-29 20:13:52] local.INFO: estimate time2024-05-29 20:34:00  
+[2024-05-29 20:13:52] local.INFO:  break exists  
+[2024-05-29 20:13:52] local.INFO: break_start_time20:50  
+[2024-05-29 20:13:52] local.INFO: token number after break is 5  
+[2024-05-29 20:13:52] local.INFO: token number after break estimate2024-05-29 20:40:00  
+[2024-05-29 20:14:12] local.INFO: getTokensCheckInCheckOut08:14:12 PM  
+[2024-05-29 20:14:12] local.INFO: getTokensCheckInCheckOut 08:14:12 PM  
+[2024-05-29 20:14:12] local.INFO: getTokensCheckInCheckOut08:14:12 PM  
+[2024-05-29 20:14:12] local.INFO: getTokensCheckInCheckOut 08:14:12 PM  
+[2024-05-29 20:14:12] local.INFO: req type  if chkin  1  
+[2024-05-29 20:14:12] local.INFO: req type  if checkout  0  
+[2024-05-29 20:14:14] local.INFO: current token number for checkin is: 3  
+[2024-05-29 20:14:14] local.INFO: permanent checkin time 2024-05-29 20:40:00  
+[2024-05-29 20:14:14] local.INFO: permanent checkin time is greater than the current checkin time   
+[2024-05-29 20:14:14] local.INFO: checkin difference is 25  
+[2024-05-29 20:14:14] local.INFO: estimated_time_of_next_patient after adding token duration: 2024-05-29 20:50:00  
+[2024-05-29 20:14:14] local.INFO: estimated_time_of_next_patient after substarcting 20 mins: 2024-05-29 20:30:00  
+[2024-05-29 20:14:14] local.INFO: estimated_time_of_next_patient after substarcting checkin difference: 2024-05-29 20:05:00  
+[2024-05-29 20:14:14] local.INFO: next token exists -> next token number is 5  
+[2024-05-29 20:14:14] local.INFO: next token exists -> next token estimate time 2024-05-29 20:05:00  
+[2024-05-29 20:14:14] local.INFO: each token duration of upcoming tokens10  
+[2024-05-29 20:14:14] local.INFO: Upcoming tokens loop started  
+[2024-05-29 20:14:14] local.INFO: upcoming token number in loop6  
+[2024-05-29 20:14:14] local.INFO: estimate time2024-05-29 20:15:00  
+[2024-05-29 20:14:14] local.INFO: Upcoming tokens loop started  
+[2024-05-29 20:14:14] local.INFO: upcoming token number in loop7  
+[2024-05-29 20:14:14] local.INFO: estimate time2024-05-29 20:25:00  
+[2024-05-29 20:14:14] local.INFO:  break exists  
+[2024-05-29 20:14:14] local.INFO: break_start_time20:50  
+[2024-05-29 20:14:14] local.INFO: token number after break is 5  
+[2024-05-29 20:14:14] local.INFO: token number after break estimate2024-05-29 20:40:00  
+[2024-05-29 20:14:16] local.INFO: ADD test details api called on 08:14:16 PM  
+[2024-05-29 20:14:25] local.INFO: ADD test details api called on 08:14:25 PM  
+[2024-05-29 20:14:27] local.INFO: getTokensCheckInCheckOut08:14:27 PM  
+[2024-05-29 20:14:27] local.INFO: getTokensCheckInCheckOut 08:14:27 PM  
+[2024-05-29 20:14:27] local.INFO: getTokensCheckInCheckOut08:14:27 PM  
+[2024-05-29 20:14:27] local.INFO: getTokensCheckInCheckOut 08:14:27 PM  
+[2024-05-29 20:14:27] local.INFO: req type  if chkin  0  
+[2024-05-29 20:14:27] local.INFO: req type  if checkout  1  
+[2024-05-29 20:14:31] local.INFO: ADD test details api called on 08:14:31 PM  
+[2024-05-29 20:14:33] local.INFO: getTokensCheckInCheckOut08:14:33 PM  
+[2024-05-29 20:14:33] local.INFO: getTokensCheckInCheckOut 08:14:33 PM  
+[2024-05-29 20:14:33] local.INFO: getTokensCheckInCheckOut08:14:33 PM  
+[2024-05-29 20:14:33] local.INFO: getTokensCheckInCheckOut 08:14:33 PM  
+[2024-05-29 20:14:33] local.INFO: req type  if chkin  0  
+[2024-05-29 20:14:33] local.INFO: req type  if checkout  1  
+[2024-05-29 20:14:52] local.INFO: getTokensCheckInCheckOut08:14:52 PM  
+[2024-05-29 20:14:52] local.INFO: getTokensCheckInCheckOut 08:14:52 PM  
+[2024-05-29 20:14:52] local.INFO: getTokensCheckInCheckOut08:14:52 PM  
+[2024-05-29 20:14:52] local.INFO: getTokensCheckInCheckOut 08:14:52 PM  
+[2024-05-29 20:14:52] local.INFO: req type  if chkin  1  
+[2024-05-29 20:14:52] local.INFO: req type  if checkout  0  
+[2024-05-29 20:14:54] local.INFO: current token number for checkin is: 5  
+[2024-05-29 20:14:54] local.INFO: permanent checkin time 2024-05-29 21:10:00  
+[2024-05-29 20:14:54] local.INFO: permanent checkin time is greater than the current checkin time   
+[2024-05-29 20:14:54] local.INFO: checkin difference is 55  
+[2024-05-29 20:14:54] local.INFO: estimated_time_of_next_patient after adding token duration: 2024-05-29 21:20:00  
+[2024-05-29 20:14:54] local.INFO: estimated_time_of_next_patient after substarcting 20 mins: 2024-05-29 21:00:00  
+[2024-05-29 20:14:54] local.INFO: estimated_time_of_next_patient after substarcting checkin difference: 2024-05-29 20:05:00  
+[2024-05-29 20:14:54] local.INFO: next token exists -> next token number is 6  
+[2024-05-29 20:14:54] local.INFO: next token exists -> next token estimate time 2024-05-29 20:05:00  
+[2024-05-29 20:14:54] local.INFO: each token duration of upcoming tokens10  
+[2024-05-29 20:14:54] local.INFO: Upcoming tokens loop started  
+[2024-05-29 20:14:54] local.INFO: upcoming token number in loop7  
+[2024-05-29 20:14:54] local.INFO: estimate time2024-05-29 20:15:00  
+[2024-05-29 20:14:54] local.INFO:  break exists  
+[2024-05-29 20:14:54] local.INFO: break_start_time20:50  
+[2024-05-29 20:14:54] local.INFO: token number after break is 6  
+[2024-05-29 20:14:54] local.INFO: token number after break estimate2024-05-29 20:40:00  
+[2024-05-29 21:18:54] local.INFO: Token Time: 2024-05-30 20:20:00  
+[2024-05-29 21:18:54] local.INFO: Token Time:   
+[2024-05-29 21:19:23] local.INFO: Token Time: 2024-05-30 20:20:00  
+[2024-05-29 21:19:23] local.INFO: Token Time:   
+[2024-05-29 21:19:53] local.INFO: Token Time: 2024-05-30 20:20:00  
+[2024-05-29 21:19:53] local.INFO: Token Time:   
+[2024-05-29 21:21:04] local.INFO: Token Time: 2024-05-30 20:20:00  
+[2024-05-29 21:21:04] local.INFO: Token Time:   
+[2024-05-29 22:02:02] local.INFO: Token Time: 2024-05-30 20:20:00  
+[2024-05-29 22:02:02] local.INFO: Token Time:   
+[2024-05-29 22:02:26] local.INFO: ADD test details api called on 10:02:26 PM  
+[2024-05-29 22:02:28] local.INFO: getTokensCheckInCheckOut10:02:28 PM  
+[2024-05-29 22:02:28] local.INFO: getTokensCheckInCheckOut 10:02:28 PM  
+[2024-05-29 22:02:28] local.INFO: getTokensCheckInCheckOut10:02:28 PM  
+[2024-05-29 22:02:28] local.INFO: getTokensCheckInCheckOut 10:02:28 PM  
+[2024-05-29 22:02:28] local.INFO: req type  if chkin  0  
+[2024-05-29 22:02:28] local.INFO: req type  if checkout  1  
+[2024-05-29 22:02:35] local.INFO: getTokensCheckInCheckOut10:02:35 PM  
+[2024-05-29 22:02:35] local.INFO: getTokensCheckInCheckOut 10:02:35 PM  
+[2024-05-29 22:02:35] local.INFO: getTokensCheckInCheckOut10:02:35 PM  
+[2024-05-29 22:02:35] local.INFO: getTokensCheckInCheckOut 10:02:35 PM  
+[2024-05-29 22:02:35] local.INFO: req type  if chkin  1  
+[2024-05-29 22:02:35] local.INFO: req type  if checkout  0  
+[2024-05-29 22:02:37] local.INFO: current token number for checkin is: 6  
+[2024-05-29 22:02:37] local.INFO: permanent checkin time 2024-05-29 21:20:00  
+[2024-05-29 22:02:37] local.INFO: permanent checkin time is less than the current checkin time   
+[2024-05-29 22:02:37] local.INFO: checkin difference is 42  
+[2024-05-29 22:02:37] local.INFO: estimated_time_of_next_patient after adding token duration: 2024-05-29 21:30:00  
+[2024-05-29 22:02:37] local.INFO: estimated_time_of_next_patient after substarcting 20 mins: 2024-05-29 21:10:00  
+[2024-05-29 22:02:37] local.INFO: estimated_time_of_next_patient after substarcting checkin difference: 2024-05-29 21:52:00  
+[2024-05-29 22:02:37] local.INFO: next token exists -> next token number is 7  
+[2024-05-29 22:02:37] local.INFO: next token exists -> next token estimate time 2024-05-29 21:52:00  
+[2024-05-29 22:02:37] local.INFO: each token duration of upcoming tokens10  
+[2024-05-29 22:02:37] local.INFO:  break exists  
+[2024-05-30 10:17:26] local.INFO: Token Time:   
+[2024-05-30 10:17:26] local.INFO: Token Time:   
+[2024-05-30 10:17:26] local.INFO: Token Time:   
+[2024-05-30 10:17:26] local.INFO: Token Time:   
+[2024-05-30 10:17:26] local.INFO: Token Time:   
+[2024-05-30 10:33:46] local.INFO: uniquePatientDetails = {"mediezy_patient_id":"MAA01821"}  
+[2024-05-30 10:34:29] local.INFO: getTokensCheckInCheckOut10:34:29 AM  
+[2024-05-30 10:34:29] local.INFO: getTokensCheckInCheckOut 10:34:29 AM  
+[2024-05-30 10:34:29] local.INFO: getTokensCheckInCheckOut10:34:29 AM  
+[2024-05-30 10:34:29] local.INFO: getTokensCheckInCheckOut 10:34:29 AM  
+[2024-05-30 10:34:29] local.INFO: req type  if chkin  1  
+[2024-05-30 10:34:29] local.INFO: req type  if checkout  0  
+[2024-05-30 10:34:30] local.INFO: ADD test details api called on 10:34:30 AM  
+[2024-05-30 10:34:32] local.INFO: getTokensCheckInCheckOut10:34:32 AM  
+[2024-05-30 10:34:32] local.INFO: getTokensCheckInCheckOut 10:34:32 AM  
+[2024-05-30 10:34:32] local.INFO: getTokensCheckInCheckOut10:34:32 AM  
+[2024-05-30 10:34:32] local.INFO: getTokensCheckInCheckOut 10:34:32 AM  
+[2024-05-30 10:34:32] local.INFO: req type  if chkin  0  
+[2024-05-30 10:34:32] local.INFO: req type  if checkout  1  
+[2024-05-30 10:37:02] local.INFO: uniquePatientDetails = {"mediezy_patient_id":"MAA01822"}  
+[2024-05-30 10:37:28] local.INFO: uniquePatientDetails = {"mediezy_patient_id":"MAA01823"}  
+[2024-05-30 10:37:55] local.INFO: uniquePatientDetails = {"mediezy_patient_id":"MAA01824"}  
+[2024-05-30 10:38:05] local.INFO: getTokensCheckInCheckOut10:38:05 AM  
+[2024-05-30 10:38:05] local.INFO: getTokensCheckInCheckOut 10:38:05 AM  
+[2024-05-30 10:38:05] local.INFO: getTokensCheckInCheckOut10:38:05 AM  
+[2024-05-30 10:38:05] local.INFO: getTokensCheckInCheckOut 10:38:05 AM  
+[2024-05-30 10:38:05] local.INFO: req type  if chkin  1  
+[2024-05-30 10:38:05] local.INFO: req type  if checkout  0  
+[2024-05-30 10:38:12] local.INFO: ADD test details api called on 10:38:12 AM  
+[2024-05-30 10:38:14] local.INFO: getTokensCheckInCheckOut10:38:14 AM  
+[2024-05-30 10:38:14] local.INFO: getTokensCheckInCheckOut 10:38:14 AM  
+[2024-05-30 10:38:14] local.INFO: getTokensCheckInCheckOut10:38:14 AM  
+[2024-05-30 10:38:14] local.INFO: getTokensCheckInCheckOut 10:38:14 AM  
+[2024-05-30 10:38:14] local.INFO: req type  if chkin  0  
+[2024-05-30 10:38:14] local.INFO: req type  if checkout  1  
+[2024-05-30 10:38:28] local.INFO: getTokensCheckInCheckOut10:38:28 AM  
+[2024-05-30 10:38:28] local.INFO: getTokensCheckInCheckOut 10:38:28 AM  
+[2024-05-30 10:38:28] local.INFO: getTokensCheckInCheckOut10:38:28 AM  
+[2024-05-30 10:38:28] local.INFO: getTokensCheckInCheckOut 10:38:28 AM  
+[2024-05-30 10:38:28] local.INFO: req type  if chkin  1  
+[2024-05-30 10:38:28] local.INFO: req type  if checkout  0  
+[2024-05-30 10:38:35] local.INFO: ADD test details api called on 10:38:35 AM  
+[2024-05-30 10:38:37] local.INFO: getTokensCheckInCheckOut10:38:37 AM  
+[2024-05-30 10:38:37] local.INFO: getTokensCheckInCheckOut 10:38:37 AM  
+[2024-05-30 10:38:37] local.INFO: getTokensCheckInCheckOut10:38:37 AM  
+[2024-05-30 10:38:37] local.INFO: getTokensCheckInCheckOut 10:38:37 AM  
+[2024-05-30 10:38:37] local.INFO: req type  if chkin  0  
+[2024-05-30 10:38:37] local.INFO: req type  if checkout  1  
+[2024-05-30 10:38:52] local.INFO: getTokensCheckInCheckOut10:38:52 AM  
+[2024-05-30 10:38:52] local.INFO: getTokensCheckInCheckOut 10:38:52 AM  
+[2024-05-30 10:38:52] local.INFO: getTokensCheckInCheckOut10:38:52 AM  
+[2024-05-30 10:38:52] local.INFO: getTokensCheckInCheckOut 10:38:52 AM  
+[2024-05-30 10:38:52] local.INFO: req type  if chkin  1  
+[2024-05-30 10:38:52] local.INFO: req type  if checkout  0  
+[2024-05-30 10:52:08] local.INFO: uniquePatientDetails = {"mediezy_patient_id":"MAA01825"}  
+[2024-05-30 10:52:48] local.INFO: uniquePatientDetails = {"mediezy_patient_id":"MAA01826"}  
+[2024-05-30 10:53:16] local.INFO: uniquePatientDetails = {"mediezy_patient_id":"MAA01827"}  
+[2024-05-30 10:53:30] local.INFO: getTokensCheckInCheckOut10:53:30 AM  
+[2024-05-30 10:53:30] local.INFO: getTokensCheckInCheckOut 10:53:30 AM  
+[2024-05-30 10:53:30] local.INFO: getTokensCheckInCheckOut10:53:30 AM  
+[2024-05-30 10:53:30] local.INFO: getTokensCheckInCheckOut 10:53:30 AM  
+[2024-05-30 10:53:30] local.INFO: req type  if chkin  1  
+[2024-05-30 10:53:30] local.INFO: req type  if checkout  0  
+[2024-05-30 10:53:41] local.INFO: getTokensCheckInCheckOut10:53:41 AM  
+[2024-05-30 10:53:41] local.INFO: getTokensCheckInCheckOut 10:53:41 AM  
+[2024-05-30 10:53:41] local.INFO: getTokensCheckInCheckOut10:53:41 AM  
+[2024-05-30 10:53:41] local.INFO: getTokensCheckInCheckOut 10:53:41 AM  
+[2024-05-30 10:53:41] local.INFO: req type  if chkin  0  
+[2024-05-30 10:53:41] local.INFO: req type  if checkout  1  
+[2024-05-30 11:00:18] local.INFO: getTokensCheckInCheckOut11:00:18 AM  
+[2024-05-30 11:00:18] local.INFO: getTokensCheckInCheckOut 11:00:18 AM  
+[2024-05-30 11:00:18] local.INFO: getTokensCheckInCheckOut11:00:18 AM  
+[2024-05-30 11:00:18] local.INFO: getTokensCheckInCheckOut 11:00:18 AM  
+[2024-05-30 11:00:18] local.INFO: req type  if chkin  0  
+[2024-05-30 11:00:18] local.INFO: req type  if checkout  1  
+[2024-05-30 11:01:43] local.INFO: uniquePatientDetails = {"mediezy_patient_id":"MAA01828"}  
+[2024-05-30 11:06:22] local.INFO: uniquePatientDetails = {"mediezy_patient_id":"MAA01829"}  
+[2024-05-30 11:07:42] local.ERROR: Unclosed '{' on line 30 {"userId":1418,"exception":"[object] (ParseError(code: 0): Unclosed '{' on line 30 at /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/app/Http/Controllers/API/TokenBookingController.php:2100)
+[stacktrace]
+#0 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/composer/ClassLoader.php(427): Composer\\Autoload\\{closure}()
+#1 [internal function]: Composer\\Autoload\\ClassLoader->loadClass()
+#2 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php(1096): is_a()
+#3 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php(1035): Illuminate\\Routing\\Route->controllerMiddleware()
+#4 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(818): Illuminate\\Routing\\Route->gatherMiddleware()
+#5 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate\\Routing\\Router->gatherRouteMiddleware()
+#6 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(784): Illuminate\\Routing\\Router->runRouteWithinStack()
+#7 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(748): Illuminate\\Routing\\Router->runRoute()
+#8 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(737): Illuminate\\Routing\\Router->dispatchToRoute()
+#9 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate\\Routing\\Router->dispatch()
+#10 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(144): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#11 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/app/Http/Middleware/Cors.php(18): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#12 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): App\\Http\\Middleware\\Cors->handle()
+#13 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/app/Http/Middleware/ForceJsonResponse.php(19): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#14 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): App\\Http\\Middleware\\ForceJsonResponse->handle()
+#15 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#16 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#17 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#18 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#19 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#20 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#21 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#23 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#24 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#25 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(62): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#26 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#27 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#28 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#29 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#30 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then()
+#31 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#32 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
+#33 {main}
+"} 
+[2024-05-30 11:08:30] local.INFO: uniquePatientDetails = {"mediezy_patient_id":"MAA01830"}  
+[2024-05-30 11:09:04] local.INFO: getTokensCheckInCheckOut11:09:04 AM  
+[2024-05-30 11:09:04] local.INFO: getTokensCheckInCheckOut 11:09:04 AM  
+[2024-05-30 11:09:04] local.INFO: getTokensCheckInCheckOut11:09:04 AM  
+[2024-05-30 11:09:04] local.INFO: getTokensCheckInCheckOut 11:09:04 AM  
+[2024-05-30 11:09:04] local.INFO: req type  if chkin  1  
+[2024-05-30 11:09:04] local.INFO: req type  if checkout  0  
+[2024-05-30 11:09:12] local.INFO: ADD test details api called on 11:09:12 AM  
+[2024-05-30 11:09:15] local.INFO: getTokensCheckInCheckOut11:09:15 AM  
+[2024-05-30 11:09:15] local.INFO: getTokensCheckInCheckOut 11:09:15 AM  
+[2024-05-30 11:09:15] local.INFO: getTokensCheckInCheckOut11:09:15 AM  
+[2024-05-30 11:09:15] local.INFO: getTokensCheckInCheckOut 11:09:15 AM  
+[2024-05-30 11:09:15] local.INFO: req type  if chkin  0  
+[2024-05-30 11:09:15] local.INFO: req type  if checkout  1  
+[2024-05-30 11:10:03] local.INFO: uniquePatientDetails = {"mediezy_patient_id":"MAA01831"}  
+[2024-05-30 11:11:26] local.INFO: getTokensCheckInCheckOut11:11:26 AM  
+[2024-05-30 11:11:26] local.INFO: getTokensCheckInCheckOut 11:11:26 AM  
+[2024-05-30 11:11:26] local.INFO: getTokensCheckInCheckOut11:11:26 AM  
+[2024-05-30 11:11:26] local.INFO: getTokensCheckInCheckOut 11:11:26 AM  
+[2024-05-30 11:11:26] local.INFO: req type  if chkin  1  
+[2024-05-30 11:11:26] local.INFO: req type  if checkout  0  
+[2024-05-30 11:11:35] local.INFO: ADD test details api called on 11:11:35 AM  
+[2024-05-30 11:11:37] local.INFO: getTokensCheckInCheckOut11:11:37 AM  
+[2024-05-30 11:11:37] local.INFO: getTokensCheckInCheckOut 11:11:37 AM  
+[2024-05-30 11:11:37] local.INFO: getTokensCheckInCheckOut11:11:37 AM  
+[2024-05-30 11:11:37] local.INFO: getTokensCheckInCheckOut 11:11:37 AM  
+[2024-05-30 11:11:37] local.INFO: req type  if chkin  0  
+[2024-05-30 11:11:37] local.INFO: req type  if checkout  1  
+[2024-05-30 11:12:04] local.INFO: Token Time: 2024-05-31 11:20:00  
+[2024-05-30 11:12:04] local.INFO: Token Time:   
+[2024-05-30 11:12:39] local.INFO: getTokensCheckInCheckOut11:12:39 AM  
+[2024-05-30 11:12:39] local.INFO: getTokensCheckInCheckOut 11:12:39 AM  
+[2024-05-30 11:12:39] local.INFO: getTokensCheckInCheckOut11:12:39 AM  
+[2024-05-30 11:12:39] local.INFO: getTokensCheckInCheckOut 11:12:39 AM  
+[2024-05-30 11:12:39] local.INFO: req type  if chkin  1  
+[2024-05-30 11:12:39] local.INFO: req type  if checkout  0  
+[2024-05-30 11:13:28] local.ERROR: syntax error, unexpected identifier "t", expecting "]" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected identifier \"t\", expecting \"]\" at /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/app/Http/Controllers/API/ChatBot/ChatBotController.php:93)
+[stacktrace]
+#0 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/composer/ClassLoader.php(427): Composer\\Autoload\\{closure}()
+#1 [internal function]: Composer\\Autoload\\ClassLoader->loadClass()
+#2 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php(1096): is_a()
+#3 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php(1035): Illuminate\\Routing\\Route->controllerMiddleware()
+#4 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(818): Illuminate\\Routing\\Route->gatherMiddleware()
+#5 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate\\Routing\\Router->gatherRouteMiddleware()
+#6 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(784): Illuminate\\Routing\\Router->runRouteWithinStack()
+#7 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(748): Illuminate\\Routing\\Router->runRoute()
+#8 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(737): Illuminate\\Routing\\Router->dispatchToRoute()
+#9 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate\\Routing\\Router->dispatch()
+#10 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(144): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#11 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/app/Http/Middleware/Cors.php(18): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#12 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): App\\Http\\Middleware\\Cors->handle()
+#13 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/app/Http/Middleware/ForceJsonResponse.php(19): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#14 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): App\\Http\\Middleware\\ForceJsonResponse->handle()
+#15 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#16 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#17 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#18 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#19 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#20 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#21 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#23 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#24 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#25 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(62): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#26 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#27 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#28 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#29 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#30 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then()
+#31 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#32 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
+#33 {main}
+"} 
+[2024-05-30 11:14:23] local.INFO: Validation passed  
+[2024-05-30 11:14:23] local.INFO: Checked for existing breaks {"existing_break_check":{"Illuminate\\Database\\Eloquent\\Collection":[]}} 
+[2024-05-30 11:14:23] local.INFO: Saved doctor reschedule data {"doctor_reschedule_data":{"App\\Models\\DoctorReschedule":{"doctor_id":47,"clinic_id":"31","reschedule_type":3,"reschedule_duration":10,"reschedule_start_datetime":"2024-05-30T06:10:00.000000Z","reschedule_end_datetime":"2024-05-30T06:20:00.000000Z","schedule_type":"1","schedule_id":258,"break_start_time":"11:40:00","break_end_time":"11:50:00","updated_at":"2024-05-30T05:44:23.000000Z","created_at":"2024-05-30T05:44:23.000000Z","id":1}}} 
+[2024-05-30 11:14:23] local.INFO: Sent push notification {"response":{"multicast_id":2820774230827884180,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-30 11:14:23] local.INFO: Sent push notification {"response":{"multicast_id":6698929120465342947,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-30 11:14:24] local.INFO: Sent push notification {"response":{"multicast_id":1129969861147147625,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-30 11:14:24] local.INFO: Sent push notification {"response":{"multicast_id":8597713846816823578,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-30 11:14:25] local.INFO: Sent push notification {"response":{"multicast_id":2964563128328277096,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-30 11:14:25] local.INFO: Sent push notification {"response":{"multicast_id":211617495737606326,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-30 11:14:25] local.INFO: Sent push notification {"response":{"multicast_id":6529099814733131741,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-30 11:14:26] local.INFO: Sent push notification {"response":{"multicast_id":478410184964926081,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-30 11:14:26] local.INFO: Sent push notification {"response":{"multicast_id":3184350894253218005,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-30 11:14:26] local.INFO: Sent push notification {"response":{"multicast_id":4142406804598655396,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-30 11:14:27] local.INFO: Break process successful  
+[2024-05-30 11:15:25] local.INFO: Validation passed  
+[2024-05-30 11:15:25] local.INFO: Checked for existing breaks {"existing_break_check":{"Illuminate\\Database\\Eloquent\\Collection":[{"reschedule_id":1,"reschedule_type":3,"reschedule_duration":"10","doctor_id":47,"clinic_id":31,"schedule_id":258,"created_at":"2024-05-30T05:44:23.000000Z","updated_at":"2024-05-30T05:44:23.000000Z","reschedule_start_datetime":"2024-05-30 11:40:00","reschedule_end_datetime":"2024-05-30 11:50:00","break_start_time":"11:40:00","break_end_time":"11:50:00","schedule_type":"1"}]}} 
+[2024-05-30 11:15:25] local.INFO: Saved doctor reschedule data {"doctor_reschedule_data":{"App\\Models\\DoctorReschedule":{"doctor_id":47,"clinic_id":"31","reschedule_type":3,"reschedule_duration":10,"reschedule_start_datetime":"2024-05-30T06:50:00.000000Z","reschedule_end_datetime":"2024-05-30T07:00:00.000000Z","schedule_type":"1","schedule_id":258,"break_start_time":"12:20:00","break_end_time":"12:30:00","updated_at":"2024-05-30T05:45:25.000000Z","created_at":"2024-05-30T05:45:25.000000Z","id":2}}} 
+[2024-05-30 11:15:25] local.INFO: Sent push notification {"response":{"multicast_id":5840846257702686220,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-30 11:15:26] local.INFO: Sent push notification {"response":{"multicast_id":4088916597434621444,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-30 11:15:26] local.INFO: Sent push notification {"response":{"multicast_id":3290303757954696120,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-30 11:15:27] local.INFO: Sent push notification {"response":{"multicast_id":4801510153977139134,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-30 11:15:27] local.INFO: Sent push notification {"response":{"multicast_id":2298638545802471808,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-30 11:15:27] local.INFO: Sent push notification {"response":{"multicast_id":4702727585333403105,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-30 11:15:28] local.INFO: Sent push notification {"response":{"multicast_id":5024471366481146767,"success":0,"failure":1,"canonical_ids":0,"results":[{"error":"NotRegistered"}]}} 
+[2024-05-30 11:15:28] local.INFO: Break process successful  
+[2024-05-30 11:15:50] local.INFO: getTokensCheckInCheckOut11:15:50 AM  
+[2024-05-30 11:15:50] local.INFO: getTokensCheckInCheckOut 11:15:50 AM  
+[2024-05-30 11:15:50] local.INFO: getTokensCheckInCheckOut11:15:50 AM  
+[2024-05-30 11:15:50] local.INFO: getTokensCheckInCheckOut 11:15:50 AM  
+[2024-05-30 11:15:50] local.INFO: req type  if chkin  1  
+[2024-05-30 11:15:50] local.INFO: req type  if checkout  0  
+[2024-05-30 11:15:52] local.INFO: current token number for checkin is: 1  
+[2024-05-30 11:15:52] local.INFO: permanent checkin time 2024-05-30 11:20:00  
+[2024-05-30 11:15:52] local.INFO: permanent checkin time is greater than the current checkin time   
+[2024-05-30 11:15:52] local.INFO: checkin difference is 4  
+[2024-05-30 11:15:52] local.INFO: estimated_time_of_next_patient after adding token duration: 2024-05-30 11:30:00  
+[2024-05-30 11:15:52] local.INFO: estimated_time_of_next_patient after substarcting 20 mins: 2024-05-30 11:10:00  
+[2024-05-30 11:15:52] local.INFO: estimated_time_of_next_patient after substarcting checkin difference: 2024-05-30 11:06:00  
+[2024-05-30 11:15:53] local.INFO: next token exists -> next token number is 2  
+[2024-05-30 11:15:53] local.INFO: next token exists -> next token estimate time 2024-05-30 11:06:00  
+[2024-05-30 11:15:53] local.INFO: each token duration of upcoming tokens10  
+[2024-05-30 11:15:53] local.INFO: Upcoming tokens loop started  
+[2024-05-30 11:15:53] local.INFO: upcoming token number in loop3  
+[2024-05-30 11:15:53] local.INFO: estimate time2024-05-30 11:16:00  
+[2024-05-30 11:15:53] local.INFO: Upcoming tokens loop started  
+[2024-05-30 11:15:53] local.INFO: upcoming token number in loop4  
+[2024-05-30 11:15:53] local.INFO: estimate time2024-05-30 11:26:00  
+[2024-05-30 11:15:53] local.INFO: Upcoming tokens loop started  
+[2024-05-30 11:15:53] local.INFO: upcoming token number in loop5  
+[2024-05-30 11:15:53] local.INFO: estimate time2024-05-30 11:36:00  
+[2024-05-30 11:15:53] local.INFO: Upcoming tokens loop started  
+[2024-05-30 11:15:53] local.INFO: upcoming token number in loop6  
+[2024-05-30 11:15:53] local.INFO: estimate time2024-05-30 11:46:00  
+[2024-05-30 11:15:53] local.INFO: Upcoming tokens loop started  
+[2024-05-30 11:15:53] local.INFO: upcoming token number in loop7  
+[2024-05-30 11:15:53] local.INFO: estimate time2024-05-30 11:56:00  
+[2024-05-30 11:15:53] local.INFO: Upcoming tokens loop started  
+[2024-05-30 11:15:53] local.INFO: upcoming token number in loop8  
+[2024-05-30 11:15:53] local.INFO: estimate time2024-05-30 12:06:00  
+[2024-05-30 11:15:53] local.INFO: Upcoming tokens loop started  
+[2024-05-30 11:15:53] local.INFO: upcoming token number in loop9  
+[2024-05-30 11:15:53] local.INFO: estimate time2024-05-30 12:16:00  
+[2024-05-30 11:15:53] local.INFO: Upcoming tokens loop started  
+[2024-05-30 11:15:53] local.INFO: upcoming token number in loop10  
+[2024-05-30 11:15:53] local.INFO: estimate time2024-05-30 12:26:00  
+[2024-05-30 11:15:53] local.INFO: Upcoming tokens loop started  
+[2024-05-30 11:15:53] local.INFO: upcoming token number in loop11  
+[2024-05-30 11:15:53] local.INFO: estimate time2024-05-30 12:36:00  
+[2024-05-30 11:15:53] local.INFO: Upcoming tokens loop started  
+[2024-05-30 11:15:53] local.INFO: upcoming token number in loop12  
+[2024-05-30 11:15:53] local.INFO: estimate time2024-05-30 12:46:00  
+[2024-05-30 11:15:53] local.INFO:  break exists  
+[2024-05-30 11:15:53] local.INFO: break_start_time11:40  
+[2024-05-30 11:15:53] local.INFO: token number after break is 3  
+[2024-05-30 11:15:53] local.INFO: token number after break estimate2024-05-30 11:30:00  
+[2024-05-30 11:15:53] local.INFO: break_start_time12:20  
+[2024-05-30 11:15:53] local.INFO: token number after break is 6  
+[2024-05-30 11:15:53] local.INFO: token number after break estimate2024-05-30 12:10:00  
+[2024-05-30 11:16:36] local.INFO: ADD test details api called on 11:16:36 AM  
+[2024-05-30 11:16:38] local.INFO: getTokensCheckInCheckOut11:16:38 AM  
+[2024-05-30 11:16:38] local.INFO: getTokensCheckInCheckOut 11:16:38 AM  
+[2024-05-30 11:16:38] local.INFO: getTokensCheckInCheckOut11:16:38 AM  
+[2024-05-30 11:16:38] local.INFO: getTokensCheckInCheckOut 11:16:38 AM  
+[2024-05-30 11:16:38] local.INFO: req type  if chkin  0  
+[2024-05-30 11:16:38] local.INFO: req type  if checkout  1  
+[2024-05-30 11:16:42] local.INFO: getTokensCheckInCheckOut11:16:42 AM  
+[2024-05-30 11:16:42] local.INFO: getTokensCheckInCheckOut 11:16:42 AM  
+[2024-05-30 11:16:42] local.INFO: getTokensCheckInCheckOut11:16:42 AM  
+[2024-05-30 11:16:42] local.INFO: getTokensCheckInCheckOut 11:16:42 AM  
+[2024-05-30 11:16:42] local.INFO: req type  if chkin  1  
+[2024-05-30 11:16:42] local.INFO: req type  if checkout  0  
+[2024-05-30 11:16:44] local.INFO: current token number for checkin is: 2  
+[2024-05-30 11:16:44] local.INFO: permanent checkin time 2024-05-30 11:30:00  
+[2024-05-30 11:16:44] local.INFO: permanent checkin time is greater than the current checkin time   
+[2024-05-30 11:16:44] local.INFO: checkin difference is 13  
+[2024-05-30 11:16:44] local.INFO: estimated_time_of_next_patient after adding token duration: 2024-05-30 11:40:00  
+[2024-05-30 11:16:44] local.INFO: estimated_time_of_next_patient after substarcting 20 mins: 2024-05-30 11:20:00  
+[2024-05-30 11:16:44] local.INFO: estimated_time_of_next_patient after substarcting checkin difference: 2024-05-30 11:07:00  
+[2024-05-30 11:16:44] local.INFO: next token exists -> next token number is 3  
+[2024-05-30 11:16:44] local.INFO: next token exists -> next token estimate time 2024-05-30 11:07:00  
+[2024-05-30 11:16:44] local.INFO: each token duration of upcoming tokens10  
+[2024-05-30 11:16:44] local.INFO: Upcoming tokens loop started  
+[2024-05-30 11:16:44] local.INFO: upcoming token number in loop4  
+[2024-05-30 11:16:44] local.INFO: estimate time2024-05-30 11:17:00  
+[2024-05-30 11:16:44] local.INFO: Upcoming tokens loop started  
+[2024-05-30 11:16:44] local.INFO: upcoming token number in loop5  
+[2024-05-30 11:16:44] local.INFO: estimate time2024-05-30 11:27:00  
+[2024-05-30 11:16:44] local.INFO: Upcoming tokens loop started  
+[2024-05-30 11:16:44] local.INFO: upcoming token number in loop6  
+[2024-05-30 11:16:44] local.INFO: estimate time2024-05-30 11:37:00  
+[2024-05-30 11:16:44] local.INFO: Upcoming tokens loop started  
+[2024-05-30 11:16:44] local.INFO: upcoming token number in loop7  
+[2024-05-30 11:16:44] local.INFO: estimate time2024-05-30 11:47:00  
+[2024-05-30 11:16:44] local.INFO: Upcoming tokens loop started  
+[2024-05-30 11:16:44] local.INFO: upcoming token number in loop8  
+[2024-05-30 11:16:44] local.INFO: estimate time2024-05-30 11:57:00  
+[2024-05-30 11:16:44] local.INFO: Upcoming tokens loop started  
+[2024-05-30 11:16:44] local.INFO: upcoming token number in loop9  
+[2024-05-30 11:16:44] local.INFO: estimate time2024-05-30 12:07:00  
+[2024-05-30 11:16:44] local.INFO: Upcoming tokens loop started  
+[2024-05-30 11:16:44] local.INFO: upcoming token number in loop10  
+[2024-05-30 11:16:44] local.INFO: estimate time2024-05-30 12:17:00  
+[2024-05-30 11:16:44] local.INFO: Upcoming tokens loop started  
+[2024-05-30 11:16:44] local.INFO: upcoming token number in loop11  
+[2024-05-30 11:16:44] local.INFO: estimate time2024-05-30 12:27:00  
+[2024-05-30 11:16:44] local.INFO: Upcoming tokens loop started  
+[2024-05-30 11:16:44] local.INFO: upcoming token number in loop12  
+[2024-05-30 11:16:44] local.INFO: estimate time2024-05-30 12:37:00  
+[2024-05-30 11:16:44] local.INFO:  break exists  
+[2024-05-30 11:16:44] local.INFO: break_start_time11:40  
+[2024-05-30 11:16:44] local.INFO: token number after break is 3  
+[2024-05-30 11:16:44] local.INFO: token number after break estimate2024-05-30 11:30:00  
+[2024-05-30 11:16:44] local.INFO: break_start_time12:20  
+[2024-05-30 11:16:44] local.INFO: token number after break is 6  
+[2024-05-30 11:16:44] local.INFO: token number after break estimate2024-05-30 12:10:00  
+[2024-05-30 11:16:53] local.INFO: ADD test details api called on 11:16:53 AM  
+[2024-05-30 11:16:55] local.INFO: getTokensCheckInCheckOut11:16:55 AM  
+[2024-05-30 11:16:55] local.INFO: getTokensCheckInCheckOut 11:16:55 AM  
+[2024-05-30 11:16:55] local.INFO: getTokensCheckInCheckOut11:16:55 AM  
+[2024-05-30 11:16:55] local.INFO: getTokensCheckInCheckOut 11:16:55 AM  
+[2024-05-30 11:16:55] local.INFO: req type  if chkin  0  
+[2024-05-30 11:16:55] local.INFO: req type  if checkout  1  
+[2024-05-30 11:17:05] local.INFO: getTokensCheckInCheckOut11:17:05 AM  
+[2024-05-30 11:17:05] local.INFO: getTokensCheckInCheckOut 11:17:05 AM  
+[2024-05-30 11:17:05] local.INFO: getTokensCheckInCheckOut11:17:05 AM  
+[2024-05-30 11:17:05] local.INFO: getTokensCheckInCheckOut 11:17:05 AM  
+[2024-05-30 11:17:05] local.INFO: req type  if chkin  1  
+[2024-05-30 11:17:05] local.INFO: req type  if checkout  0  
+[2024-05-30 11:17:08] local.INFO: current token number for checkin is: 3  
+[2024-05-30 11:17:08] local.INFO: permanent checkin time 2024-05-30 11:50:00  
+[2024-05-30 11:17:08] local.INFO: permanent checkin time is greater than the current checkin time   
+[2024-05-30 11:17:08] local.INFO: checkin difference is 32  
+[2024-05-30 11:17:08] local.INFO: estimated_time_of_next_patient after adding token duration: 2024-05-30 12:00:00  
+[2024-05-30 11:17:08] local.INFO: estimated_time_of_next_patient after substarcting 20 mins: 2024-05-30 11:40:00  
+[2024-05-30 11:17:08] local.INFO: estimated_time_of_next_patient after substarcting checkin difference: 2024-05-30 11:08:00  
+[2024-05-30 11:17:08] local.INFO: next token exists -> next token number is 4  
+[2024-05-30 11:17:08] local.INFO: next token exists -> next token estimate time 2024-05-30 11:08:00  
+[2024-05-30 11:17:08] local.INFO: each token duration of upcoming tokens10  
+[2024-05-30 11:17:08] local.INFO: Upcoming tokens loop started  
+[2024-05-30 11:17:08] local.INFO: upcoming token number in loop5  
+[2024-05-30 11:17:08] local.INFO: estimate time2024-05-30 11:18:00  
+[2024-05-30 11:17:08] local.INFO: Upcoming tokens loop started  
+[2024-05-30 11:17:08] local.INFO: upcoming token number in loop6  
+[2024-05-30 11:17:08] local.INFO: estimate time2024-05-30 11:28:00  
+[2024-05-30 11:17:08] local.INFO: Upcoming tokens loop started  
+[2024-05-30 11:17:08] local.INFO: upcoming token number in loop7  
+[2024-05-30 11:17:08] local.INFO: estimate time2024-05-30 11:38:00  
+[2024-05-30 11:17:08] local.INFO: Upcoming tokens loop started  
+[2024-05-30 11:17:08] local.INFO: upcoming token number in loop8  
+[2024-05-30 11:17:08] local.INFO: estimate time2024-05-30 11:48:00  
+[2024-05-30 11:17:08] local.INFO: Upcoming tokens loop started  
+[2024-05-30 11:17:08] local.INFO: upcoming token number in loop9  
+[2024-05-30 11:17:08] local.INFO: estimate time2024-05-30 11:58:00  
+[2024-05-30 11:17:08] local.INFO: Upcoming tokens loop started  
+[2024-05-30 11:17:08] local.INFO: upcoming token number in loop10  
+[2024-05-30 11:17:08] local.INFO: estimate time2024-05-30 12:08:00  
+[2024-05-30 11:17:08] local.INFO: Upcoming tokens loop started  
+[2024-05-30 11:17:08] local.INFO: upcoming token number in loop11  
+[2024-05-30 11:17:08] local.INFO: estimate time2024-05-30 12:18:00  
+[2024-05-30 11:17:08] local.INFO: Upcoming tokens loop started  
+[2024-05-30 11:17:08] local.INFO: upcoming token number in loop12  
+[2024-05-30 11:17:08] local.INFO: estimate time2024-05-30 12:28:00  
+[2024-05-30 11:17:08] local.INFO:  break exists  
+[2024-05-30 11:17:08] local.INFO: break_start_time11:40  
+[2024-05-30 11:17:08] local.INFO: token number after break is 4  
+[2024-05-30 11:17:08] local.INFO: token number after break estimate2024-05-30 11:30:00  
+[2024-05-30 11:17:08] local.INFO: break_start_time12:20  
+[2024-05-30 11:17:08] local.INFO: token number after break is 6  
+[2024-05-30 11:17:08] local.INFO: token number after break estimate2024-05-30 12:10:00  
+[2024-05-30 11:17:21] local.INFO: uniquePatientDetails = {"mediezy_patient_id":"MAA01832"}  
+[2024-05-30 11:17:29] local.INFO: ADD test details api called on 11:17:29 AM  
+[2024-05-30 11:17:31] local.INFO: getTokensCheckInCheckOut11:17:31 AM  
+[2024-05-30 11:17:31] local.INFO: getTokensCheckInCheckOut 11:17:31 AM  
+[2024-05-30 11:17:31] local.INFO: getTokensCheckInCheckOut11:17:31 AM  
+[2024-05-30 11:17:31] local.INFO: getTokensCheckInCheckOut 11:17:31 AM  
+[2024-05-30 11:17:31] local.INFO: req type  if chkin  0  
+[2024-05-30 11:17:32] local.INFO: req type  if checkout  1  
+[2024-05-30 11:17:53] local.INFO: uniquePatientDetails = {"mediezy_patient_id":"MAA01833"}  
+[2024-05-30 11:17:56] local.INFO: getTokensCheckInCheckOut11:17:56 AM  
+[2024-05-30 11:17:56] local.INFO: getTokensCheckInCheckOut 11:17:56 AM  
+[2024-05-30 11:17:56] local.INFO: getTokensCheckInCheckOut11:17:56 AM  
+[2024-05-30 11:17:56] local.INFO: getTokensCheckInCheckOut 11:17:56 AM  
+[2024-05-30 11:17:56] local.INFO: req type  if chkin  1  
+[2024-05-30 11:17:56] local.INFO: req type  if checkout  0  
+[2024-05-30 11:17:58] local.INFO: current token number for checkin is: 7  
+[2024-05-30 11:17:58] local.INFO: permanent checkin time 2024-05-30 12:40:00  
+[2024-05-30 11:17:58] local.INFO: permanent checkin time is greater than the current checkin time   
+[2024-05-30 11:17:58] local.INFO: checkin difference is 82  
+[2024-05-30 11:17:58] local.INFO: estimated_time_of_next_patient after adding token duration: 2024-05-30 12:50:00  
+[2024-05-30 11:17:58] local.INFO: estimated_time_of_next_patient after substarcting 20 mins: 2024-05-30 12:30:00  
+[2024-05-30 11:17:58] local.INFO: estimated_time_of_next_patient after substarcting checkin difference: 2024-05-30 11:08:00  
+[2024-05-30 11:17:58] local.INFO: next token exists -> next token number is 4  
+[2024-05-30 11:17:58] local.INFO: next token exists -> next token estimate time 2024-05-30 11:08:00  
+[2024-05-30 11:17:58] local.INFO: each token duration of upcoming tokens10  
+[2024-05-30 11:17:58] local.INFO: Upcoming tokens loop started  
+[2024-05-30 11:17:58] local.INFO: upcoming token number in loop5  
+[2024-05-30 11:17:58] local.INFO: estimate time2024-05-30 11:18:00  
+[2024-05-30 11:17:58] local.INFO: Upcoming tokens loop started  
+[2024-05-30 11:17:58] local.INFO: upcoming token number in loop6  
+[2024-05-30 11:17:58] local.INFO: estimate time2024-05-30 11:28:00  
+[2024-05-30 11:17:58] local.INFO: Upcoming tokens loop started  
+[2024-05-30 11:17:58] local.INFO: upcoming token number in loop8  
+[2024-05-30 11:17:58] local.INFO: estimate time2024-05-30 11:38:00  
+[2024-05-30 11:17:58] local.INFO: Upcoming tokens loop started  
+[2024-05-30 11:17:58] local.INFO: upcoming token number in loop9  
+[2024-05-30 11:17:58] local.INFO: estimate time2024-05-30 11:48:00  
+[2024-05-30 11:17:58] local.INFO: Upcoming tokens loop started  
+[2024-05-30 11:17:58] local.INFO: upcoming token number in loop10  
+[2024-05-30 11:17:58] local.INFO: estimate time2024-05-30 11:58:00  
+[2024-05-30 11:17:58] local.INFO: Upcoming tokens loop started  
+[2024-05-30 11:17:58] local.INFO: upcoming token number in loop11  
+[2024-05-30 11:17:58] local.INFO: estimate time2024-05-30 12:08:00  
+[2024-05-30 11:17:58] local.INFO: Upcoming tokens loop started  
+[2024-05-30 11:17:58] local.INFO: upcoming token number in loop12  
+[2024-05-30 11:17:58] local.INFO: estimate time2024-05-30 12:18:00  
+[2024-05-30 11:17:58] local.INFO:  break exists  
+[2024-05-30 11:17:58] local.INFO: break_start_time11:40  
+[2024-05-30 11:17:58] local.INFO: token number after break is 4  
+[2024-05-30 11:17:58] local.INFO: token number after break estimate2024-05-30 11:30:00  
+[2024-05-30 11:17:58] local.INFO: break_start_time12:20  
+[2024-05-30 11:17:58] local.INFO: token number after break is 6  
+[2024-05-30 11:17:58] local.INFO: token number after break estimate2024-05-30 12:10:00  
+[2024-05-30 11:18:16] local.INFO: getTokensCheckInCheckOut11:18:16 AM  
+[2024-05-30 11:18:16] local.INFO: getTokensCheckInCheckOut 11:18:16 AM  
+[2024-05-30 11:18:16] local.INFO: getTokensCheckInCheckOut11:18:16 AM  
+[2024-05-30 11:18:16] local.INFO: getTokensCheckInCheckOut 11:18:16 AM  
+[2024-05-30 11:18:16] local.INFO: req type  if chkin  0  
+[2024-05-30 11:18:16] local.INFO: req type  if checkout  1  
+[2024-05-30 11:18:24] local.INFO: ADD test details api called on 11:18:24 AM  
+[2024-05-30 11:18:26] local.INFO: getTokensCheckInCheckOut11:18:26 AM  
+[2024-05-30 11:18:26] local.INFO: getTokensCheckInCheckOut 11:18:26 AM  
+[2024-05-30 11:18:26] local.INFO: getTokensCheckInCheckOut11:18:26 AM  
+[2024-05-30 11:18:26] local.INFO: getTokensCheckInCheckOut 11:18:26 AM  
+[2024-05-30 11:18:26] local.INFO: req type  if chkin  0  
+[2024-05-30 11:18:26] local.INFO: req type  if checkout  1  
+[2024-05-30 11:18:28] local.INFO: getTokensCheckInCheckOut11:18:28 AM  
+[2024-05-30 11:18:28] local.INFO: getTokensCheckInCheckOut 11:18:28 AM  
+[2024-05-30 11:18:28] local.INFO: getTokensCheckInCheckOut11:18:28 AM  
+[2024-05-30 11:18:28] local.INFO: getTokensCheckInCheckOut 11:18:28 AM  
+[2024-05-30 11:18:28] local.INFO: req type  if chkin  1  
+[2024-05-30 11:18:28] local.INFO: req type  if checkout  0  
+[2024-05-30 11:18:30] local.INFO: current token number for checkin is: 8  
+[2024-05-30 11:18:30] local.INFO: permanent checkin time 2024-05-30 12:50:00  
+[2024-05-30 11:18:30] local.INFO: permanent checkin time is greater than the current checkin time   
+[2024-05-30 11:18:30] local.INFO: checkin difference is 91  
+[2024-05-30 11:18:30] local.INFO: estimated_time_of_next_patient after adding token duration: 2024-05-30 13:00:00  
+[2024-05-30 11:18:30] local.INFO: estimated_time_of_next_patient after substarcting 20 mins: 2024-05-30 12:40:00  
+[2024-05-30 11:18:30] local.INFO: estimated_time_of_next_patient after substarcting checkin difference: 2024-05-30 11:09:00  
+[2024-05-30 11:18:30] local.INFO: next token exists -> next token number is 4  
+[2024-05-30 11:18:30] local.INFO: next token exists -> next token estimate time 2024-05-30 11:09:00  
+[2024-05-30 11:18:30] local.INFO: each token duration of upcoming tokens10  
+[2024-05-30 11:18:30] local.INFO: Upcoming tokens loop started  
+[2024-05-30 11:18:30] local.INFO: upcoming token number in loop5  
+[2024-05-30 11:18:30] local.INFO: estimate time2024-05-30 11:19:00  
+[2024-05-30 11:18:30] local.INFO: Upcoming tokens loop started  
+[2024-05-30 11:18:30] local.INFO: upcoming token number in loop6  
+[2024-05-30 11:18:30] local.INFO: estimate time2024-05-30 11:29:00  
+[2024-05-30 11:18:30] local.INFO: Upcoming tokens loop started  
+[2024-05-30 11:18:30] local.INFO: upcoming token number in loop9  
+[2024-05-30 11:18:30] local.INFO: estimate time2024-05-30 11:39:00  
+[2024-05-30 11:18:30] local.INFO: Upcoming tokens loop started  
+[2024-05-30 11:18:30] local.INFO: upcoming token number in loop10  
+[2024-05-30 11:18:30] local.INFO: estimate time2024-05-30 11:49:00  
+[2024-05-30 11:18:30] local.INFO: Upcoming tokens loop started  
+[2024-05-30 11:18:30] local.INFO: upcoming token number in loop11  
+[2024-05-30 11:18:30] local.INFO: estimate time2024-05-30 11:59:00  
+[2024-05-30 11:18:30] local.INFO: Upcoming tokens loop started  
+[2024-05-30 11:18:30] local.INFO: upcoming token number in loop12  
+[2024-05-30 11:18:30] local.INFO: estimate time2024-05-30 12:09:00  
+[2024-05-30 11:18:30] local.INFO:  break exists  
+[2024-05-30 11:18:30] local.INFO: break_start_time11:40  
+[2024-05-30 11:18:30] local.INFO: token number after break is 4  
+[2024-05-30 11:18:30] local.INFO: token number after break estimate2024-05-30 11:30:00  
+[2024-05-30 11:18:30] local.INFO: break_start_time12:20  
+[2024-05-30 11:18:30] local.INFO: token number after break is 6  
+[2024-05-30 11:18:30] local.INFO: token number after break estimate2024-05-30 12:10:00  
+[2024-05-30 11:19:27] local.ERROR: Unclosed '{' on line 1663 {"userId":1418,"exception":"[object] (ParseError(code: 0): Unclosed '{' on line 1663 at /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/app/Http/Controllers/API/TokenBookingController.php:1771)
+[stacktrace]
+#0 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/composer/ClassLoader.php(427): Composer\\Autoload\\{closure}()
+#1 [internal function]: Composer\\Autoload\\ClassLoader->loadClass()
+#2 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php(1096): is_a()
+#3 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php(1035): Illuminate\\Routing\\Route->controllerMiddleware()
+#4 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(818): Illuminate\\Routing\\Route->gatherMiddleware()
+#5 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate\\Routing\\Router->gatherRouteMiddleware()
+#6 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(784): Illuminate\\Routing\\Router->runRouteWithinStack()
+#7 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(748): Illuminate\\Routing\\Router->runRoute()
+#8 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(737): Illuminate\\Routing\\Router->dispatchToRoute()
+#9 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate\\Routing\\Router->dispatch()
+#10 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(144): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#11 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/app/Http/Middleware/Cors.php(18): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#12 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): App\\Http\\Middleware\\Cors->handle()
+#13 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/app/Http/Middleware/ForceJsonResponse.php(19): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#14 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): App\\Http\\Middleware\\ForceJsonResponse->handle()
+#15 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#16 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#17 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#18 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#19 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#20 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#21 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#23 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#24 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#25 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(62): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#26 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#27 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#28 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#29 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#30 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then()
+#31 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#32 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
+#33 {main}
+"} 
+[2024-05-30 11:19:27] local.ERROR: Unclosed '{' on line 30 {"userId":1417,"exception":"[object] (ParseError(code: 0): Unclosed '{' on line 30 at /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/app/Http/Controllers/API/TokenBookingController.php:2100)
+[stacktrace]
+#0 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/composer/ClassLoader.php(427): Composer\\Autoload\\{closure}()
+#1 [internal function]: Composer\\Autoload\\ClassLoader->loadClass()
+#2 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php(1096): is_a()
+#3 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php(1035): Illuminate\\Routing\\Route->controllerMiddleware()
+#4 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(818): Illuminate\\Routing\\Route->gatherMiddleware()
+#5 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate\\Routing\\Router->gatherRouteMiddleware()
+#6 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(784): Illuminate\\Routing\\Router->runRouteWithinStack()
+#7 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(748): Illuminate\\Routing\\Router->runRoute()
+#8 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(737): Illuminate\\Routing\\Router->dispatchToRoute()
+#9 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate\\Routing\\Router->dispatch()
+#10 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(144): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#11 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/app/Http/Middleware/Cors.php(18): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#12 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): App\\Http\\Middleware\\Cors->handle()
+#13 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/app/Http/Middleware/ForceJsonResponse.php(19): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#14 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): App\\Http\\Middleware\\ForceJsonResponse->handle()
+#15 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#16 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#17 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#18 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#19 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#20 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#21 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#23 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#24 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#25 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(62): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#26 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#27 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#28 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#29 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#30 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then()
+#31 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#32 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
+#33 {main}
+"} 
+[2024-05-30 11:23:21] local.INFO: getTokensCheckInCheckOut11:23:21 AM  
+[2024-05-30 11:23:21] local.INFO: getTokensCheckInCheckOut 11:23:21 AM  
+[2024-05-30 11:23:21] local.INFO: getTokensCheckInCheckOut11:23:21 AM  
+[2024-05-30 11:23:21] local.INFO: getTokensCheckInCheckOut 11:23:21 AM  
+[2024-05-30 11:23:21] local.INFO: req type  if chkin  1  
+[2024-05-30 11:23:21] local.INFO: req type  if checkout  0  
+[2024-05-30 11:23:27] local.INFO: getTokensCheckInCheckOut11:23:27 AM  
+[2024-05-30 11:23:27] local.INFO: getTokensCheckInCheckOut 11:23:27 AM  
+[2024-05-30 11:23:27] local.INFO: getTokensCheckInCheckOut11:23:27 AM  
+[2024-05-30 11:23:27] local.INFO: getTokensCheckInCheckOut 11:23:27 AM  
+[2024-05-30 11:23:27] local.INFO: req type  if chkin  0  
+[2024-05-30 11:23:27] local.INFO: req type  if checkout  1  
+[2024-05-30 11:28:32] local.INFO: uniquePatientDetails = {"mediezy_patient_id":"MAA01834"}  
+[2024-05-30 11:28:56] local.INFO: uniquePatientDetails = {"mediezy_patient_id":"MAA01835"}  
+[2024-05-30 11:29:05] local.INFO: getTokensCheckInCheckOut11:29:05 AM  
+[2024-05-30 11:29:05] local.INFO: getTokensCheckInCheckOut 11:29:05 AM  
+[2024-05-30 11:29:05] local.INFO: getTokensCheckInCheckOut11:29:05 AM  
+[2024-05-30 11:29:05] local.INFO: getTokensCheckInCheckOut 11:29:05 AM  
+[2024-05-30 11:29:05] local.INFO: req type  if chkin  1  
+[2024-05-30 11:29:05] local.INFO: req type  if checkout  0  
+[2024-05-30 11:29:12] local.INFO: ADD test details api called on 11:29:12 AM  
+[2024-05-30 11:29:14] local.INFO: getTokensCheckInCheckOut11:29:14 AM  
+[2024-05-30 11:29:14] local.INFO: getTokensCheckInCheckOut 11:29:14 AM  
+[2024-05-30 11:29:14] local.INFO: getTokensCheckInCheckOut11:29:14 AM  
+[2024-05-30 11:29:14] local.INFO: getTokensCheckInCheckOut 11:29:14 AM  
+[2024-05-30 11:29:14] local.INFO: req type  if chkin  0  
+[2024-05-30 11:29:14] local.INFO: req type  if checkout  1  
+[2024-05-30 11:29:19] local.INFO: getTokensCheckInCheckOut11:29:19 AM  
+[2024-05-30 11:29:19] local.INFO: getTokensCheckInCheckOut 11:29:19 AM  
+[2024-05-30 11:29:19] local.INFO: getTokensCheckInCheckOut11:29:19 AM  
+[2024-05-30 11:29:19] local.INFO: getTokensCheckInCheckOut 11:29:19 AM  
+[2024-05-30 11:29:19] local.INFO: req type  if chkin  1  
+[2024-05-30 11:29:19] local.INFO: req type  if checkout  0  
+[2024-05-30 11:31:43] local.INFO: Inserting into medicine_history {"medicine_id":"393","doctor_id":"4"} 
+[2024-05-30 11:32:53] local.INFO: Inserting into medicine_history {"medicine_id":"393","doctor_id":"4"} 
+[2024-05-30 11:33:17] local.INFO: Inserting into medicine_history {"medicine_id":"393","doctor_id":"4"} 
+[2024-05-30 11:33:47] local.INFO: uniquePatientDetails = {"mediezy_patient_id":"MAA01836"}  
+[2024-05-30 11:33:51] local.INFO: Inserting into medicine_history {"medicine_id":"393","doctor_id":"4"} 
+[2024-05-30 11:34:13] local.INFO: uniquePatientDetails = {"mediezy_patient_id":"MAA01837"}  
+[2024-05-30 11:38:58] local.ERROR: Unclosed '{' on line 30 {"userId":4,"exception":"[object] (ParseError(code: 0): Unclosed '{' on line 30 at /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/app/Http/Controllers/API/TokenBookingController.php:364)
+[stacktrace]
+#0 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/composer/ClassLoader.php(427): Composer\\Autoload\\{closure}()
+#1 [internal function]: Composer\\Autoload\\ClassLoader->loadClass()
+#2 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php(1096): is_a()
+#3 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php(1035): Illuminate\\Routing\\Route->controllerMiddleware()
+#4 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(818): Illuminate\\Routing\\Route->gatherMiddleware()
+#5 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate\\Routing\\Router->gatherRouteMiddleware()
+#6 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(784): Illuminate\\Routing\\Router->runRouteWithinStack()
+#7 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(748): Illuminate\\Routing\\Router->runRoute()
+#8 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(737): Illuminate\\Routing\\Router->dispatchToRoute()
+#9 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate\\Routing\\Router->dispatch()
+#10 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(144): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#11 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/app/Http/Middleware/Cors.php(18): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#12 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): App\\Http\\Middleware\\Cors->handle()
+#13 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/app/Http/Middleware/ForceJsonResponse.php(19): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#14 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): App\\Http\\Middleware\\ForceJsonResponse->handle()
+#15 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#16 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#17 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#18 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#19 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#20 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#21 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#23 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#24 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#25 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(62): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#26 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#27 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#28 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#29 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#30 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then()
+#31 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#32 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
+#33 {main}
+"} 
+[2024-05-30 11:38:58] local.ERROR: Unclosed '{' on line 1058 {"userId":1418,"exception":"[object] (ParseError(code: 0): Unclosed '{' on line 1058 at /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/app/Http/Controllers/API/TokenBookingController.php:1059)
+[stacktrace]
+#0 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/composer/ClassLoader.php(427): Composer\\Autoload\\{closure}()
+#1 [internal function]: Composer\\Autoload\\ClassLoader->loadClass()
+#2 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php(1096): is_a()
+#3 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Routing/Route.php(1035): Illuminate\\Routing\\Route->controllerMiddleware()
+#4 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(818): Illuminate\\Routing\\Route->gatherMiddleware()
+#5 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate\\Routing\\Router->gatherRouteMiddleware()
+#6 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(784): Illuminate\\Routing\\Router->runRouteWithinStack()
+#7 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(748): Illuminate\\Routing\\Router->runRoute()
+#8 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(737): Illuminate\\Routing\\Router->dispatchToRoute()
+#9 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate\\Routing\\Router->dispatch()
+#10 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(144): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#11 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/app/Http/Middleware/Cors.php(18): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#12 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): App\\Http\\Middleware\\Cors->handle()
+#13 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/app/Http/Middleware/ForceJsonResponse.php(19): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#14 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): App\\Http\\Middleware\\ForceJsonResponse->handle()
+#15 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#16 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#17 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#18 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#19 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#20 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#21 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#23 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(99): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#24 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#25 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(62): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#26 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#27 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#28 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#29 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#30 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then()
+#31 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#32 /home/1163996.cloudwaysapps.com/tdtjxymxyy/public_html/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
+#33 {main}
+"} 
+[2024-05-30 11:40:02] local.INFO: getTokensCheckInCheckOut11:40:02 AM  
+[2024-05-30 11:40:02] local.INFO: getTokensCheckInCheckOut 11:40:02 AM  
+[2024-05-30 11:40:02] local.INFO: getTokensCheckInCheckOut11:40:02 AM  
+[2024-05-30 11:40:02] local.INFO: getTokensCheckInCheckOut 11:40:02 AM  
+[2024-05-30 11:40:02] local.INFO: req type  if chkin  0  
+[2024-05-30 11:40:02] local.INFO: req type  if checkout  1  
+[2024-05-30 11:45:47] local.INFO: uniquePatientDetails = {"mediezy_patient_id":"MAA01838"}  
+[2024-05-30 11:46:04] local.INFO: uniquePatientDetails = {"mediezy_patient_id":"MAA01839"}  
+[2024-05-30 11:53:12] local.INFO: Token Time: 2024-05-31 11:20:00  
+[2024-05-30 11:53:12] local.INFO: Token Time:   
+[2024-05-30 11:54:04] local.INFO: Token Time: 2024-05-31 11:20:00  
+[2024-05-30 11:54:04] local.INFO: Token Time:   
+[2024-05-30 11:54:32] local.INFO: Token Time: 2024-05-31 11:20:00  
+[2024-05-30 11:54:32] local.INFO: Token Time:   

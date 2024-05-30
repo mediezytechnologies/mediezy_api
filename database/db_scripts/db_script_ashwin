@@ -1,0 +1,7 @@
+CREATE TABLE `api_logs` (
+    `api_logs_id` BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    `request` TEXT,
+    `response` TEXT,
+    `created_at` TIMESTAMP NULL DEFAULT NULL,
+    `updated_at` TIMESTAMP NULL DEFAULT NULL
+);
